@@ -1,0 +1,186 @@
+/****Form****/
+
+.boxed_form #form {
+	padding-top: 0px;
+	position:relative;
+}
+
+.boxed_form #form p { padding-bottom:3px;}
+
+.boxed_form #form input {
+    background: none repeat scroll 0 0 #e3e3e3;
+    border: 1px solid #cccfd3;
+    color: #a6a6a6;
+	display:block;
+    font: 12px/20px Arial,Helvetica,sans-serif;
+    padding: 5px 13px;
+    width: 100%;
+	height: 35px;
+	font-style:italic;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	
+}
+
+.boxed_form #form textarea {
+	-moz-box-sizing: border-box;
+	box-sizing:border-box;
+    background: none repeat scroll 0 0 #e3e3e3;
+    border: 1px solid #cccfd3;
+    color: #a6a6a6;
+    font: 12px/20px Arial,Helvetica,sans-serif;
+    height: 174px;
+    margin: 0;
+	font-style:italic;
+    overflow: hidden;
+    padding: 5px 13px 8px;
+    position: relative;
+    resize: none;
+    width: 100%;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+}
+
+.boxed_form #form label {
+	display: block;
+	min-height: 70px;
+	width: 100%;
+	position: relative;
+}
+
+.boxed_form #form .error,.boxed_form  #form .empty {
+	color: #FF0000;
+	display: none;
+	font-size: 11px;
+	line-height:14px;
+	width:auto;
+	position: absolute;
+	z-index: 999;
+	right: 5px;
+	top:7px;
+}
+
+.boxed_form #form .error-empty {
+	display:none;
+	float:left;
+
+}
+
+.boxed_form .btn {
+	padding: 25px 20px 0 0;
+	cursor:pointer;
+	float:right;
+}
+ 
+.boxed_form .clear_btn {
+	margin-right:25px;
+	}
+
+
+.content .btn a:first-child {
+	margin-left: 0 !important;
+}
+
+.boxed_form #form .message {
+	width: 100%;
+}
+
+label span {
+	font-family: 'Ubuntu', sans-serif;
+	font-size:13px;
+	line-height:22px;
+	color:#83868a;
+	font-weight:400;
+}
+
+.message br {
+	height: 0;
+	line-height: 0;
+}
+
+.boxed_form #form .success {
+	display: none;
+	position: absolute;
+	width: 540px;
+	border: 1px solid #e1e7eb;
+  	background: #fff;
+	text-align: center;
+	padding: 20px 10px;
+	right:10px;
+	top:83px;
+	z-index: 999;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+
+
+@media only screen and (max-width: 995px) {
+
+
+.boxed_form #form label {
+	float: none !important;	
+	width: 100%;
+	position:relative;
+	display:block;
+}
+
+.boxed_form #form input {
+	margin-bottom: 10px;
+}
+
+.boxed_form #form .error, #form .empty { font-size:10px;}
+
+.boxed_form #form label.message {
+	width: 100% !important;
+}
+
+.boxed_form #form .success {
+	width: 428px;
+}
+
+.boxed_form .btn {
+	padding-right: 0;
+}
+
+.boxed_form #form label.email {
+	width: 100%;
+	margin: 0;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+  .map {
+	margin-bottom: 25px;
+}
+  .btn {
+		padding-bottom: 0;  
+  }
+
+.boxed_form #form .success { left:0px; top:290px;width: 420px;}
+  
+.boxed_form #form .error, .boxed_form #form .empty { font-size:11px;}
+ 
+.boxed_form #form textarea {
+		height: 250px !important;  
+  }
+  
+}
+@media only screen and (max-width: 479px) {
+ 
+ .boxed_form #form .success {
+	width: 300px;
+}
+
+ 
+.boxed_form #form textarea {
+		height: 200px !important;  
+		
+  }
+}

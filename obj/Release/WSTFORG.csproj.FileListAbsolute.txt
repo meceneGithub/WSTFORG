@@ -1,0 +1,8 @@
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\bin\WSTFORG.dll.config
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\bin\WSTFORG.dll
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\bin\WSTFORG.pdb
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\bin\RegexUtility.dll
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\bin\RegexUtility.pdb
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\obj\Release\WSTFORG.csprojResolveAssemblyReference.cache
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\obj\Release\WSTFORG.dll
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\obj\Release\WSTFORG.pdb

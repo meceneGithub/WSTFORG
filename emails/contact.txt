@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>2015 Women Retreat Contact Request</title>
+</head>
+<body>
+    <div style='border: solid 1px #cccccc; width: 588px; padding-left: 10px; margin: 0 auto;
+        font-size: large'>
+        <div title='headerWrapper' style='width: 580px; padding:10px'>
+            <div title='header' style='width: 600px; height: 101px;'>
+                <img alt='' src='http://womenseekingthefather.org/images/logo.jpg' />
+            </div>
+            <div>
+                <p>
+                   This email is from the contact page of Women Seeking the Father ministry.</p>
+                <div>
+					Please reply to this email as soon as you possible.
+				</div>
+
+				<p>
+                    <u>Client submitted the following information:</u><br />
+                    Name: <%client_name%>
+                   <br />
+				    Email Address:  <%client_email%>
+                    <br />
+                    Phone:  <%client_phone%>
+					<br />
+					Message/Comment: <%client_message%>    
+				</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

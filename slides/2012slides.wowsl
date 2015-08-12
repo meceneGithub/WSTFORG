@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>7.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>false</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>13</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>2012slides</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>parallax,fade</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/convex/</ImageTemplate>
+            <ImageTemplateName>Convex</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/TFS2012/Womenseekingthefather/WSTFNewSite/wstfministry_52191/Slides/2012/2012slideshow.html</PublishFileName>
+            <PublishIndex>2012slideshow.html</PublishIndex>
+            <PublishPath>C:/TFS2012/Womenseekingthefather/WSTFNewSite/wstfministry_52191/Slides/2012</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>2</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#54acd2</TemplateColor>
+            <TemplateFont>Gurajada</TemplateFont>
+            <TemplateName>convex</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013639.JPG</url>
+                <title>MH013639</title>
+                <filesize>1627729</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013645.JPG</url>
+                <title>MH013645</title>
+                <filesize>1765575</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013654.JPG</url>
+                <title>MH013654</title>
+                <filesize>1657692</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013656.JPG</url>
+                <title>MH013656</title>
+                <filesize>1836429</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013658.JPG</url>
+                <title>MH013658</title>
+                <filesize>1722907</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013665.JPG</url>
+                <title>MH013665</title>
+                <filesize>1944247</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013666.JPG</url>
+                <title>MH013666</title>
+                <filesize>1948095</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013676.JPG</url>
+                <title>MH013676</title>
+                <filesize>1796420</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013691.JPG</url>
+                <title>MH013691</title>
+                <filesize>1664183</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013697.JPG</url>
+                <title>MH013697</title>
+                <filesize>1705578</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013713.JPG</url>
+                <title>MH013713</title>
+                <filesize>1903146</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013715.JPG</url>
+                <title>MH013715</title>
+                <filesize>1694273</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013720.JPG</url>
+                <title>MH013720</title>
+                <filesize>1837853</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013722.JPG</url>
+                <title>MH013722</title>
+                <filesize>1824562</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013734.JPG</url>
+                <title>MH013734</title>
+                <filesize>1980646</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013735.JPG</url>
+                <title>MH013735</title>
+                <filesize>1766637</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013743.JPG</url>
+                <title>MH013743</title>
+                <filesize>1867826</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013744.JPG</url>
+                <title>MH013744</title>
+                <filesize>1811562</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013747.JPG</url>
+                <title>MH013747</title>
+                <filesize>1770943</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013752.JPG</url>
+                <title>MH013752</title>
+                <filesize>1828895</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013753.JPG</url>
+                <title>MH013753</title>
+                <filesize>1788480</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013755.JPG</url>
+                <title>MH013755</title>
+                <filesize>1892074</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013756.JPG</url>
+                <title>MH013756</title>
+                <filesize>1765156</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013757.JPG</url>
+                <title>MH013757</title>
+                <filesize>1754358</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013758.JPG</url>
+                <title>MH013758</title>
+                <filesize>1953787</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013760.JPG</url>
+                <title>MH013760</title>
+                <filesize>1952385</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013762.JPG</url>
+                <title>MH013762</title>
+                <filesize>1915831</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013542.JPG</url>
+                <title>MH013542</title>
+                <filesize>1910347</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013572.JPG</url>
+                <title>MH013572</title>
+                <filesize>1855307</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013578.JPG</url>
+                <title>MH013578</title>
+                <filesize>1664473</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013583.JPG</url>
+                <title>MH013583</title>
+                <filesize>1774588</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013594.JPG</url>
+                <title>MH013594</title>
+                <filesize>1885149</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013597.JPG</url>
+                <title>MH013597</title>
+                <filesize>1775226</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013600.JPG</url>
+                <title>MH013600</title>
+                <filesize>1895965</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013601.JPG</url>
+                <title>MH013601</title>
+                <filesize>1792031</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013608.JPG</url>
+                <title>MH013608</title>
+                <filesize>1765700</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013610.JPG</url>
+                <title>MH013610</title>
+                <filesize>1995732</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013615.JPG</url>
+                <title>MH013615</title>
+                <filesize>1759879</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013617.JPG</url>
+                <title>MH013617</title>
+                <filesize>1832053</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2012/Pictures/retreat Images/MH013623.JPG</url>
+                <title>MH013623</title>
+                <filesize>1749991</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

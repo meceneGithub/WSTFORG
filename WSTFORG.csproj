@@ -1,0 +1,1337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DE173812-0B93-49F0-9514-7E347EE0D234}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WSTFORG</RootNamespace>
+    <AssemblyName>WSTFORG</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PackageAsSingleFile>false</PackageAsSingleFile>
+    <DesktopBuildPackageLocation>..\..\WebSites\2013\Deployment\wstforg\</DesktopBuildPackageLocation>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="10year\2007pics.html" />
+    <Content Include="10year\2009pics.html" />
+    <Content Include="10year\2010pics.html" />
+    <Content Include="10year\2011pics.html" />
+    <Content Include="10year\2012pics.html" />
+    <Content Include="10year\2013pics.html" />
+    <Content Include="10year\2014pics.html" />
+    <Content Include="about\celebration.html" />
+    <Content Include="about\flyer.html" />
+    <Content Include="css\emailstyle.css" />
+    <Content Include="css\form.css" />
+    <Content Include="EmailRegexUtility.csproj" />
+    <Content Include="emails\contact.txt" />
+    <Content Include="emails\management.txt" />
+    <Content Include="images\band.jpg" />
+    <Content Include="images\bann_1.jpg" />
+    <Content Include="images\bann_2.jpg" />
+    <Content Include="images\bann_3.jpg" />
+    <Content Include="images\bann_4.jpg" />
+    <Content Include="images\border-1.gif" />
+    <Content Include="images\button1_l.gif" />
+    <Content Include="images\button1_r.gif" />
+    <Content Include="images\button1_t.gif" />
+    <Content Include="images\bx_nav.png" />
+    <Content Include="images\call_bg.png" />
+    <Content Include="images\celebration_2.jpg" />
+    <Content Include="images\celebration_2.png" />
+    <Content Include="images\close.png" />
+    <Content Include="images\cycle_nav.png" />
+    <Content Include="images\diane.png" />
+    <Content Include="images\diane_small.png" />
+    <Content Include="images\facebookEvent.jpg" />
+    <Content Include="images\facebookprofile.jpg" />
+    <Content Include="images\footer_bg.png" />
+    <Content Include="images\home.jpg" />
+    <Content Include="images\image-blank.png" />
+    <Content Include="images\IMG_1904.JPG" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo2.png" />
+    <Content Include="images\logopaypal.png" />
+    <Content Include="images\logo_.png" />
+    <Content Include="images\logo_362x139.png" />
+    <Content Include="images\magnify.png" />
+    <Content Include="images\marker-1.png" />
+    <Content Include="images\meristal.png" />
+    <Content Include="images\meristal_small.png" />
+    <Content Include="images\page1_img1.jpg" />
+    <Content Include="images\page1_img2.jpg" />
+    <Content Include="images\page1_img3.jpg" />
+    <Content Include="images\page1_img4.jpg" />
+    <Content Include="images\page2_img1.jpg" />
+    <Content Include="images\page2_img2.jpg" />
+    <Content Include="images\page2_img3.jpg" />
+    <Content Include="images\page2_img4.jpg" />
+    <Content Include="images\page2_img5.jpg" />
+    <Content Include="images\page2_img6.jpg" />
+    <Content Include="images\page2_img7.jpg" />
+    <Content Include="images\page2_img8.jpg" />
+    <Content Include="images\page2_img9.jpg" />
+    <Content Include="images\page3_img1.png" />
+    <Content Include="images\page3_img2.png" />
+    <Content Include="images\page3_img3.png" />
+    <Content Include="images\page3_img4.png" />
+    <Content Include="images\page3_img5.png" />
+    <Content Include="images\pastDiane.jpg" />
+    <Content Include="images\prayer_article1.jpg" />
+    <Content Include="images\prayer_article3.jpg" />
+    <Content Include="images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="images\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="images\prettyPhoto\default\loader.gif" />
+    <Content Include="images\prettyPhoto\default\sprite.png" />
+    <Content Include="images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\light_square\loader.gif" />
+    <Content Include="images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="images\registrationFlyer.jpg" />
+    <Content Include="images\slider_nav.png" />
+    <Content Include="images\slide_Default_1.png" />
+    <Content Include="images\slide_Default_2.png" />
+    <Content Include="images\slide_Default_3.png" />
+    <Content Include="images\slide_Default_4.png" />
+    <Content Include="images\slide_Default_5.png" />
+    <Content Include="images\soc_1.png" />
+    <Content Include="images\soc_1Old.png" />
+    <Content Include="images\soc_1_.png" />
+    <Content Include="images\soc_2.png" />
+    <Content Include="images\soc_3.png" />
+    <Content Include="images\soc_4.png" />
+    <Content Include="images\ul1.png" />
+    <Content Include="images\white.png" />
+    <Content Include="slides\2007\2007slides.wowsl" />
+    <Content Include="slides\2007\2007slideshow-howto.html" />
+    <Content Include="slides\2007\2007slideshow-iframe.html" />
+    <Content Include="slides\2007\2007slideshow.html" />
+    <Content Include="slides\2007\data1\images\zoo0021.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0022.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0023.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0024.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0025.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0026.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0027.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0028.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0029.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0030.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0031.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0032.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0033.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0034.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0035.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0036.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0037.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0038.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0039.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0040.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0041.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0042.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0043.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0044.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0045.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0046.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0047.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0048.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0049.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0050.jpg" />
+    <Content Include="slides\2007\data1\images\zoo0051.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0021.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0022.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0023.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0024.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0025.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0026.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0027.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0028.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0029.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0030.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0031.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0032.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0033.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0034.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0035.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0036.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0037.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0038.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0039.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0040.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0041.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0042.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0043.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0044.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0045.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0046.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0047.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0048.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0049.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0050.jpg" />
+    <Content Include="slides\2007\data1\tooltips\zoo0051.jpg" />
+    <Content Include="slides\2007\engine1\jquery.js" />
+    <Content Include="slides\2007\engine1\script.js" />
+    <Content Include="slides\2007\engine1\style.css" />
+    <Content Include="slides\2007\engine1\style.mod.css" />
+    <Content Include="slides\2007\engine1\wowslider.js" />
+    <Content Include="slides\2007\engine1\wowslider.mod.js" />
+    <Content Include="slides\2007\engine1\ws-ctrl-bootstrap.eot" />
+    <Content Include="slides\2007\engine1\ws-ctrl-bootstrap.svg" />
+    <Content Include="slides\2007\engine1\ws-ctrl-bootstrap.ttf" />
+    <Content Include="slides\2007\engine1\ws-ctrl-bootstrap.woff" />
+    <Content Include="slides\2007\engine1\ws-ctrl-convex.eot" />
+    <Content Include="slides\2007\engine1\ws-ctrl-convex.svg" />
+    <Content Include="slides\2007\engine1\ws-ctrl-convex.ttf" />
+    <Content Include="slides\2007\engine1\ws-ctrl-convex.woff" />
+    <Content Include="slides\2009.html" />
+    <Content Include="slides\2009\2009wowslider-howto.html" />
+    <Content Include="slides\2009\2009wowslider-iframe.html" />
+    <Content Include="slides\2009\2009wowslider.html" />
+    <Content Include="slides\2009\data1\images\image_1.jpg" />
+    <Content Include="slides\2009\data1\images\image_10.jpg" />
+    <Content Include="slides\2009\data1\images\image_11.jpg" />
+    <Content Include="slides\2009\data1\images\image_12.jpg" />
+    <Content Include="slides\2009\data1\images\image_13.jpg" />
+    <Content Include="slides\2009\data1\images\image_14.jpg" />
+    <Content Include="slides\2009\data1\images\image_15.jpg" />
+    <Content Include="slides\2009\data1\images\image_16.jpg" />
+    <Content Include="slides\2009\data1\images\image_17.jpg" />
+    <Content Include="slides\2009\data1\images\image_18.jpg" />
+    <Content Include="slides\2009\data1\images\image_19.jpg" />
+    <Content Include="slides\2009\data1\images\image_2.jpg" />
+    <Content Include="slides\2009\data1\images\image_20.jpg" />
+    <Content Include="slides\2009\data1\images\image_21.jpg" />
+    <Content Include="slides\2009\data1\images\image_22.jpg" />
+    <Content Include="slides\2009\data1\images\image_23.jpg" />
+    <Content Include="slides\2009\data1\images\image_24.jpg" />
+    <Content Include="slides\2009\data1\images\image_25.jpg" />
+    <Content Include="slides\2009\data1\images\image_26.jpg" />
+    <Content Include="slides\2009\data1\images\image_27.jpg" />
+    <Content Include="slides\2009\data1\images\image_28.jpg" />
+    <Content Include="slides\2009\data1\images\image_29.jpg" />
+    <Content Include="slides\2009\data1\images\image_3.jpg" />
+    <Content Include="slides\2009\data1\images\image_30.jpg" />
+    <Content Include="slides\2009\data1\images\image_31.jpg" />
+    <Content Include="slides\2009\data1\images\image_32.jpg" />
+    <Content Include="slides\2009\data1\images\image_33.jpg" />
+    <Content Include="slides\2009\data1\images\image_34.jpg" />
+    <Content Include="slides\2009\data1\images\image_35.jpg" />
+    <Content Include="slides\2009\data1\images\image_36.jpg" />
+    <Content Include="slides\2009\data1\images\image_4.jpg" />
+    <Content Include="slides\2009\data1\images\image_5.jpg" />
+    <Content Include="slides\2009\data1\images\image_6.jpg" />
+    <Content Include="slides\2009\data1\images\image_7.jpg" />
+    <Content Include="slides\2009\data1\images\image_8.jpg" />
+    <Content Include="slides\2009\data1\images\image_9.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_1.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_10.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_11.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_12.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_13.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_14.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_15.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_16.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_17.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_18.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_19.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_2.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_20.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_21.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_22.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_23.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_24.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_25.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_26.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_27.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_28.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_29.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_3.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_30.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_31.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_32.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_33.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_34.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_35.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_36.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_4.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_5.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_6.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_7.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_8.jpg" />
+    <Content Include="slides\2009\data1\tooltips\image_9.jpg" />
+    <Content Include="slides\2009\engine1\arrows.png" />
+    <Content Include="slides\2009\engine1\bg.png" />
+    <Content Include="slides\2009\engine1\bullet.png" />
+    <Content Include="slides\2009\engine1\jquery.js" />
+    <Content Include="slides\2009\engine1\pause.png" />
+    <Content Include="slides\2009\engine1\play.png" />
+    <Content Include="slides\2009\engine1\script.js" />
+    <Content Include="slides\2009\engine1\style.css" />
+    <Content Include="slides\2009\engine1\style.mod.css" />
+    <Content Include="slides\2009\engine1\wowslider.js" />
+    <Content Include="slides\2009\engine1\wowslider.mod.js" />
+    <Content Include="slides\2010.html" />
+    <Content Include="slides\2010pics.html" />
+    <Content Include="slides\2010\2010slides.wowsl" />
+    <Content Include="slides\2010\2010slideshow-howto.html" />
+    <Content Include="slides\2010\2010slideshow-iframe.html" />
+    <Content Include="slides\2010\2010slideshow.html" />
+    <Content Include="slides\2010\data1\images\img_0856.jpg" />
+    <Content Include="slides\2010\data1\images\img_0857.jpg" />
+    <Content Include="slides\2010\data1\images\img_0860.jpg" />
+    <Content Include="slides\2010\data1\images\img_0861.jpg" />
+    <Content Include="slides\2010\data1\images\img_0862.jpg" />
+    <Content Include="slides\2010\data1\images\img_0867.jpg" />
+    <Content Include="slides\2010\data1\images\img_0869.jpg" />
+    <Content Include="slides\2010\data1\images\img_0871.jpg" />
+    <Content Include="slides\2010\data1\images\img_0873.jpg" />
+    <Content Include="slides\2010\data1\images\img_0874.jpg" />
+    <Content Include="slides\2010\data1\images\img_0875.jpg" />
+    <Content Include="slides\2010\data1\images\img_0892.jpg" />
+    <Content Include="slides\2010\data1\images\img_0897.jpg" />
+    <Content Include="slides\2010\data1\images\img_0899.jpg" />
+    <Content Include="slides\2010\data1\images\img_0901.jpg" />
+    <Content Include="slides\2010\data1\images\img_0905.jpg" />
+    <Content Include="slides\2010\data1\images\img_0906.jpg" />
+    <Content Include="slides\2010\data1\images\img_0931.jpg" />
+    <Content Include="slides\2010\data1\images\img_0936.jpg" />
+    <Content Include="slides\2010\data1\images\img_0937.jpg" />
+    <Content Include="slides\2010\data1\images\img_0938.jpg" />
+    <Content Include="slides\2010\data1\images\img_0939.jpg" />
+    <Content Include="slides\2010\data1\images\img_0944.jpg" />
+    <Content Include="slides\2010\data1\images\img_0945.jpg" />
+    <Content Include="slides\2010\data1\images\img_0946.jpg" />
+    <Content Include="slides\2010\data1\images\img_0947.jpg" />
+    <Content Include="slides\2010\data1\images\img_0951.jpg" />
+    <Content Include="slides\2010\data1\images\img_0953.jpg" />
+    <Content Include="slides\2010\data1\images\img_0954.jpg" />
+    <Content Include="slides\2010\data1\images\img_0955.jpg" />
+    <Content Include="slides\2010\data1\images\img_0957.jpg" />
+    <Content Include="slides\2010\data1\images\img_0958.jpg" />
+    <Content Include="slides\2010\data1\images\img_0959.jpg" />
+    <Content Include="slides\2010\data1\images\img_0962.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0856.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0857.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0860.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0861.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0862.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0867.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0869.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0871.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0873.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0874.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0875.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0892.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0897.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0899.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0901.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0905.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0906.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0931.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0936.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0937.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0938.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0939.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0944.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0945.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0946.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0947.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0951.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0953.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0954.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0955.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0957.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0958.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0959.jpg" />
+    <Content Include="slides\2010\data1\tooltips\img_0962.jpg" />
+    <Content Include="slides\2010\engine1\arrows.png" />
+    <Content Include="slides\2010\engine1\bullet.png" />
+    <Content Include="slides\2010\engine1\jquery.js" />
+    <Content Include="slides\2010\engine1\pause.png" />
+    <Content Include="slides\2010\engine1\play.png" />
+    <Content Include="slides\2010\engine1\script.js" />
+    <Content Include="slides\2010\engine1\style.css" />
+    <Content Include="slides\2010\engine1\style.mod.css" />
+    <Content Include="slides\2010\engine1\triangle.png" />
+    <Content Include="slides\2010\engine1\wowslider.js" />
+    <Content Include="slides\2010\engine1\wowslider.mod.js" />
+    <Content Include="slides\2011.html" />
+    <Content Include="slides\2011pics.html" />
+    <Content Include="slides\2011slideshow-iframe.html" />
+    <Content Include="slides\2011slideshow.html" />
+    <Content Include="slides\2011\2011slides.wowsl" />
+    <Content Include="slides\2011\2011slideshow-howto.html" />
+    <Content Include="slides\2011\data1\images\img_1958.jpg" />
+    <Content Include="slides\2011\data1\images\img_1961.jpg" />
+    <Content Include="slides\2011\data1\images\img_1962.jpg" />
+    <Content Include="slides\2011\data1\images\img_1963.jpg" />
+    <Content Include="slides\2011\data1\images\img_1965.jpg" />
+    <Content Include="slides\2011\data1\images\img_1966.jpg" />
+    <Content Include="slides\2011\data1\images\img_1971.jpg" />
+    <Content Include="slides\2011\data1\images\img_1973.jpg" />
+    <Content Include="slides\2011\data1\images\img_1977.jpg" />
+    <Content Include="slides\2011\data1\images\img_1981.jpg" />
+    <Content Include="slides\2011\data1\images\img_1983.jpg" />
+    <Content Include="slides\2011\data1\images\img_1984.jpg" />
+    <Content Include="slides\2011\data1\images\img_1989.jpg" />
+    <Content Include="slides\2011\data1\images\img_2053.jpg" />
+    <Content Include="slides\2011\data1\images\img_2071.jpg" />
+    <Content Include="slides\2011\data1\images\img_2075.jpg" />
+    <Content Include="slides\2011\data1\images\img_2082.jpg" />
+    <Content Include="slides\2011\data1\images\img_2083.jpg" />
+    <Content Include="slides\2011\data1\images\img_2110.jpg" />
+    <Content Include="slides\2011\data1\images\img_2136.jpg" />
+    <Content Include="slides\2011\data1\images\img_2145.jpg" />
+    <Content Include="slides\2011\data1\images\img_2175.jpg" />
+    <Content Include="slides\2011\data1\images\img_2189.jpg" />
+    <Content Include="slides\2011\data1\images\img_2251.jpg" />
+    <Content Include="slides\2011\data1\images\img_2256.jpg" />
+    <Content Include="slides\2011\data1\images\img_2260.jpg" />
+    <Content Include="slides\2011\data1\images\img_2261.jpg" />
+    <Content Include="slides\2011\data1\images\img_2262.jpg" />
+    <Content Include="slides\2011\data1\images\img_2263.jpg" />
+    <Content Include="slides\2011\data1\images\img_2264.jpg" />
+    <Content Include="slides\2011\data1\images\img_2274.jpg" />
+    <Content Include="slides\2011\data1\images\img_2277.jpg" />
+    <Content Include="slides\2011\data1\images\img_2280.jpg" />
+    <Content Include="slides\2011\data1\images\img_2314.jpg" />
+    <Content Include="slides\2011\data1\images\img_2318.jpg" />
+    <Content Include="slides\2011\data1\images\img_2319.jpg" />
+    <Content Include="slides\2011\data1\images\img_2320.jpg" />
+    <Content Include="slides\2011\data1\images\img_2339.jpg" />
+    <Content Include="slides\2011\data1\images\img_2340.jpg" />
+    <Content Include="slides\2011\data1\images\img_2350.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0024.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0025.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0026.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0027.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0028.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0029.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0030.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0031.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0032.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0033.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0034.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0035.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0036.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0037.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0038.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0039.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0040.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0041.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0042.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0043.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0044.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0045.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0046.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0047.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0048.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0049.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0050.jpg" />
+    <Content Include="slides\2011\data1\images\zoo0051.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1958.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1961.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1962.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1963.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1965.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1966.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1971.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1973.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1977.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1981.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1983.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1984.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_1989.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2053.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2071.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2075.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2082.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2083.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2110.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2136.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2145.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2175.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2189.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2251.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2256.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2260.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2261.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2262.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2263.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2264.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2274.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2277.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2280.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2314.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2318.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2319.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2320.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2339.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2340.jpg" />
+    <Content Include="slides\2011\data1\tooltips\img_2350.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0024.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0025.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0026.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0027.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0028.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0029.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0030.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0031.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0032.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0033.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0034.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0035.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0036.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0037.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0038.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0039.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0040.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0041.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0042.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0043.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0044.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0045.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0046.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0047.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0048.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0049.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0050.jpg" />
+    <Content Include="slides\2011\data1\tooltips\zoo0051.jpg" />
+    <Content Include="slides\2011\engine1\arrows.png" />
+    <Content Include="slides\2011\engine1\bullet.png" />
+    <Content Include="slides\2011\engine1\inspirational_instrumental_musicdare_to_dream.mp3" />
+    <Content Include="slides\2011\engine1\jquery.js" />
+    <Content Include="slides\2011\engine1\pause.png" />
+    <Content Include="slides\2011\engine1\play.png" />
+    <Content Include="slides\2011\engine1\player_mp3_js.swf" />
+    <Content Include="slides\2011\engine1\script.js" />
+    <Content Include="slides\2011\engine1\style.css" />
+    <Content Include="slides\2011\engine1\style.mod.css" />
+    <Content Include="slides\2011\engine1\swfobject.js" />
+    <Content Include="slides\2011\engine1\triangle.png" />
+    <Content Include="slides\2011\engine1\wowslider.js" />
+    <Content Include="slides\2011\engine1\wowslider.mod.js" />
+    <Content Include="slides\2012.html" />
+    <Content Include="slides\2012slides.wowsl" />
+    <Content Include="slides\2012slideshow-howto.html" />
+    <Content Include="slides\2012slideshow-iframe.html" />
+    <Content Include="slides\2012slideshow.html" />
+    <Content Include="slides\2012\2012slides.wowsl" />
+    <Content Include="slides\2012\2012slideshow-howto.html" />
+    <Content Include="slides\2012\2012slideshow-iframe.html" />
+    <Content Include="slides\2012\2012slideshow.html" />
+    <Content Include="slides\2012\data1\images\img_1958.jpg" />
+    <Content Include="slides\2012\data1\images\img_1961.jpg" />
+    <Content Include="slides\2012\data1\images\img_1962.jpg" />
+    <Content Include="slides\2012\data1\images\img_1963.jpg" />
+    <Content Include="slides\2012\data1\images\img_1965.jpg" />
+    <Content Include="slides\2012\data1\images\img_1966.jpg" />
+    <Content Include="slides\2012\data1\images\img_1971.jpg" />
+    <Content Include="slides\2012\data1\images\img_1973.jpg" />
+    <Content Include="slides\2012\data1\images\img_1977.jpg" />
+    <Content Include="slides\2012\data1\images\img_1981.jpg" />
+    <Content Include="slides\2012\data1\images\img_1983.jpg" />
+    <Content Include="slides\2012\data1\images\img_1984.jpg" />
+    <Content Include="slides\2012\data1\images\img_1989.jpg" />
+    <Content Include="slides\2012\data1\images\img_2053.jpg" />
+    <Content Include="slides\2012\data1\images\img_2071.jpg" />
+    <Content Include="slides\2012\data1\images\img_2075.jpg" />
+    <Content Include="slides\2012\data1\images\img_2082.jpg" />
+    <Content Include="slides\2012\data1\images\img_2083.jpg" />
+    <Content Include="slides\2012\data1\images\img_2110.jpg" />
+    <Content Include="slides\2012\data1\images\img_2136.jpg" />
+    <Content Include="slides\2012\data1\images\img_2145.jpg" />
+    <Content Include="slides\2012\data1\images\img_2175.jpg" />
+    <Content Include="slides\2012\data1\images\img_2189.jpg" />
+    <Content Include="slides\2012\data1\images\img_2251.jpg" />
+    <Content Include="slides\2012\data1\images\img_2256.jpg" />
+    <Content Include="slides\2012\data1\images\img_2260.jpg" />
+    <Content Include="slides\2012\data1\images\img_2261.jpg" />
+    <Content Include="slides\2012\data1\images\img_2262.jpg" />
+    <Content Include="slides\2012\data1\images\img_2263.jpg" />
+    <Content Include="slides\2012\data1\images\img_2264.jpg" />
+    <Content Include="slides\2012\data1\images\img_2274.jpg" />
+    <Content Include="slides\2012\data1\images\img_2277.jpg" />
+    <Content Include="slides\2012\data1\images\img_2280.jpg" />
+    <Content Include="slides\2012\data1\images\img_2314.jpg" />
+    <Content Include="slides\2012\data1\images\mh013542.jpg" />
+    <Content Include="slides\2012\data1\images\mh013572.jpg" />
+    <Content Include="slides\2012\data1\images\mh013578.jpg" />
+    <Content Include="slides\2012\data1\images\mh013583.jpg" />
+    <Content Include="slides\2012\data1\images\mh013594.jpg" />
+    <Content Include="slides\2012\data1\images\mh013597.jpg" />
+    <Content Include="slides\2012\data1\images\mh013600.jpg" />
+    <Content Include="slides\2012\data1\images\mh013601.jpg" />
+    <Content Include="slides\2012\data1\images\mh013608.jpg" />
+    <Content Include="slides\2012\data1\images\mh013610.jpg" />
+    <Content Include="slides\2012\data1\images\mh013615.jpg" />
+    <Content Include="slides\2012\data1\images\mh013617.jpg" />
+    <Content Include="slides\2012\data1\images\mh013623.jpg" />
+    <Content Include="slides\2012\data1\images\mh013639.jpg" />
+    <Content Include="slides\2012\data1\images\mh013645.jpg" />
+    <Content Include="slides\2012\data1\images\mh013654.jpg" />
+    <Content Include="slides\2012\data1\images\mh013656.jpg" />
+    <Content Include="slides\2012\data1\images\mh013658.jpg" />
+    <Content Include="slides\2012\data1\images\mh013665.jpg" />
+    <Content Include="slides\2012\data1\images\mh013666.jpg" />
+    <Content Include="slides\2012\data1\images\mh013676.jpg" />
+    <Content Include="slides\2012\data1\images\mh013691.jpg" />
+    <Content Include="slides\2012\data1\images\mh013697.jpg" />
+    <Content Include="slides\2012\data1\images\mh013713.jpg" />
+    <Content Include="slides\2012\data1\images\mh013715.jpg" />
+    <Content Include="slides\2012\data1\images\mh013720.jpg" />
+    <Content Include="slides\2012\data1\images\mh013722.jpg" />
+    <Content Include="slides\2012\data1\images\mh013734.jpg" />
+    <Content Include="slides\2012\data1\images\mh013735.jpg" />
+    <Content Include="slides\2012\data1\images\mh013743.jpg" />
+    <Content Include="slides\2012\data1\images\mh013744.jpg" />
+    <Content Include="slides\2012\data1\images\mh013747.jpg" />
+    <Content Include="slides\2012\data1\images\mh013752.jpg" />
+    <Content Include="slides\2012\data1\images\mh013753.jpg" />
+    <Content Include="slides\2012\data1\images\mh013755.jpg" />
+    <Content Include="slides\2012\data1\images\mh013756.jpg" />
+    <Content Include="slides\2012\data1\images\mh013757.jpg" />
+    <Content Include="slides\2012\data1\images\mh013758.jpg" />
+    <Content Include="slides\2012\data1\images\mh013760.jpg" />
+    <Content Include="slides\2012\data1\images\mh013762.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1958.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1961.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1962.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1963.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1965.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1966.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1971.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1973.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1977.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1981.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1983.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1984.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_1989.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2053.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2071.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2075.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2082.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2083.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2110.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2136.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2145.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2175.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2189.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2251.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2256.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2260.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2261.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2262.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2263.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2264.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2274.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2277.jpg" />
+    <Content Include="slides\2012\data1\tooltips\img_2280.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013542.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013572.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013578.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013583.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013594.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013597.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013600.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013601.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013608.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013610.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013615.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013617.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013623.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013639.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013645.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013654.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013656.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013658.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013665.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013666.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013676.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013691.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013697.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013713.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013715.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013720.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013722.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013734.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013735.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013743.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013744.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013747.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013752.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013753.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013755.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013756.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013757.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013758.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013760.jpg" />
+    <Content Include="slides\2012\data1\tooltips\mh013762.jpg" />
+    <Content Include="slides\2012\engine1\arrows.png" />
+    <Content Include="slides\2012\engine1\bullet.png" />
+    <Content Include="slides\2012\engine1\jquery.js" />
+    <Content Include="slides\2012\engine1\pause.png" />
+    <Content Include="slides\2012\engine1\play.png" />
+    <Content Include="slides\2012\engine1\script.js" />
+    <Content Include="slides\2012\engine1\style.css" />
+    <Content Include="slides\2012\engine1\style.mod.css" />
+    <Content Include="slides\2012\engine1\triangle.png" />
+    <Content Include="slides\2012\engine1\wowslider.js" />
+    <Content Include="slides\2012\engine1\wowslider.mod.js" />
+    <Content Include="slides\2012\engine1\ws-ctrl-convex.eot" />
+    <Content Include="slides\2012\engine1\ws-ctrl-convex.svg" />
+    <Content Include="slides\2012\engine1\ws-ctrl-convex.ttf" />
+    <Content Include="slides\2012\engine1\ws-ctrl-convex.woff" />
+    <Content Include="slides\2013.wowsl" />
+    <Content Include="slides\2013\2013-howto.html" />
+    <Content Include="slides\2013\2013-iframe.html" />
+    <Content Include="slides\2013\2013.html" />
+    <Content Include="slides\2013\2013slides.wowsl" />
+    <Content Include="slides\2013\data1\images\mh010017.jpg" />
+    <Content Include="slides\2013\data1\images\mh010046.jpg" />
+    <Content Include="slides\2013\data1\images\mh010052.jpg" />
+    <Content Include="slides\2013\data1\images\mh010058.jpg" />
+    <Content Include="slides\2013\data1\images\mh010070.jpg" />
+    <Content Include="slides\2013\data1\images\mh010078.jpg" />
+    <Content Include="slides\2013\data1\images\mh010079.jpg" />
+    <Content Include="slides\2013\data1\images\mh010081.jpg" />
+    <Content Include="slides\2013\data1\images\mh010086.jpg" />
+    <Content Include="slides\2013\data1\images\mh010090.jpg" />
+    <Content Include="slides\2013\data1\images\mh010103.jpg" />
+    <Content Include="slides\2013\data1\images\mh010106.jpg" />
+    <Content Include="slides\2013\data1\images\mh010107.jpg" />
+    <Content Include="slides\2013\data1\images\mh010111.jpg" />
+    <Content Include="slides\2013\data1\images\mh010113.jpg" />
+    <Content Include="slides\2013\data1\images\mh010114.jpg" />
+    <Content Include="slides\2013\data1\images\mh010115.jpg" />
+    <Content Include="slides\2013\data1\images\mh010118.jpg" />
+    <Content Include="slides\2013\data1\images\mh010122.jpg" />
+    <Content Include="slides\2013\data1\images\mh010123.jpg" />
+    <Content Include="slides\2013\data1\images\mh010127.jpg" />
+    <Content Include="slides\2013\data1\images\mh010136.jpg" />
+    <Content Include="slides\2013\data1\images\mh010137.jpg" />
+    <Content Include="slides\2013\data1\images\mh010204.jpg" />
+    <Content Include="slides\2013\data1\images\mh010248.jpg" />
+    <Content Include="slides\2013\data1\images\mh010286.jpg" />
+    <Content Include="slides\2013\data1\images\mh010293.jpg" />
+    <Content Include="slides\2013\data1\images\mh010366.jpg" />
+    <Content Include="slides\2013\data1\images\mh010374.jpg" />
+    <Content Include="slides\2013\data1\images\mh010541.jpg" />
+    <Content Include="slides\2013\data1\images\mh010555.jpg" />
+    <Content Include="slides\2013\data1\images\mh010574.jpg" />
+    <Content Include="slides\2013\data1\images\mh010575.jpg" />
+    <Content Include="slides\2013\data1\images\mh010579.jpg" />
+    <Content Include="slides\2013\data1\images\mh010581.jpg" />
+    <Content Include="slides\2013\data1\images\mh010606.jpg" />
+    <Content Include="slides\2013\data1\images\mh010615.jpg" />
+    <Content Include="slides\2013\data1\images\mh010627.jpg" />
+    <Content Include="slides\2013\data1\images\mh010654.jpg" />
+    <Content Include="slides\2013\data1\images\mh010668.jpg" />
+    <Content Include="slides\2013\data1\images\mh010688.jpg" />
+    <Content Include="slides\2013\data1\images\mh010710.jpg" />
+    <Content Include="slides\2013\data1\images\mh010718.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010017.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010046.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010052.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010058.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010070.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010078.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010079.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010081.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010086.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010090.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010103.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010106.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010107.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010111.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010113.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010114.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010115.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010118.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010122.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010123.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010127.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010136.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010137.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010204.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010248.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010286.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010293.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010366.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010374.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010541.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010555.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010574.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010575.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010579.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010581.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010606.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010615.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010627.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010654.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010668.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010688.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010710.jpg" />
+    <Content Include="slides\2013\data1\tooltips\mh010718.jpg" />
+    <Content Include="slides\2013\engine1\arrows.gif" />
+    <Content Include="slides\2013\engine1\bullet.png" />
+    <Content Include="slides\2013\engine1\jquery.js" />
+    <Content Include="slides\2013\engine1\pause.png" />
+    <Content Include="slides\2013\engine1\play.png" />
+    <Content Include="slides\2013\engine1\script.js" />
+    <Content Include="slides\2013\engine1\shadow.png" />
+    <Content Include="slides\2013\engine1\style.css" />
+    <Content Include="slides\2013\engine1\style.mod.css" />
+    <Content Include="slides\2013\engine1\triangle.png" />
+    <Content Include="slides\2013\engine1\wowslider.js" />
+    <Content Include="slides\2013\engine1\wowslider.mod.js" />
+    <Content Include="slides\2014\2014slides.wowsl" />
+    <Content Include="slides\2014\data1\images\cam00191.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6039.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6050.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6068.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6082.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6083.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6085.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6089.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6097.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6099.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6100.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6105.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6107.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6109.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6110.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6132.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6136.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6139.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6141.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6142.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6146.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6155.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6156.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6157.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6159.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6161.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6166.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6167.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6172.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6174.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6175.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6176.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6333.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6335.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6342.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6344.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6352.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6356.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6358.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6360.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6362.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6365.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6373.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6381.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6384.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6388.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6395.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6409.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6411.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6415.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6420.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6440.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6449.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6450.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6451.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6457.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6458.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6460.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6463.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6467.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6468.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6474.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6476.jpg" />
+    <Content Include="slides\2014\data1\images\dsc_6567_edited.jpg" />
+    <Content Include="slides\2014\data1\tooltips\cam00191.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6039.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6050.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6068.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6082.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6083.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6085.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6089.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6097.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6099.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6100.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6105.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6107.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6109.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6110.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6132.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6136.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6139.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6141.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6142.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6146.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6155.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6156.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6157.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6159.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6161.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6166.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6167.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6172.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6174.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6175.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6176.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6333.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6335.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6342.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6344.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6352.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6356.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6358.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6360.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6362.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6365.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6373.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6381.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6384.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6388.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6395.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6409.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6411.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6415.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6420.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6440.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6449.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6450.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6451.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6457.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6458.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6460.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6463.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6467.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6468.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6474.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6476.jpg" />
+    <Content Include="slides\2014\data1\tooltips\dsc_6567_edited.jpg" />
+    <Content Include="slides\2014\engine1\arrows.png" />
+    <Content Include="slides\2014\engine1\bullet.png" />
+    <Content Include="slides\2014\engine1\fullscreen.svg" />
+    <Content Include="slides\2014\engine1\jquery.js" />
+    <Content Include="slides\2014\engine1\pause.png" />
+    <Content Include="slides\2014\engine1\play.png" />
+    <Content Include="slides\2014\engine1\script.js" />
+    <Content Include="slides\2014\engine1\style.css" />
+    <Content Include="slides\2014\engine1\style.mod.css" />
+    <Content Include="slides\2014\engine1\triangle.png" />
+    <Content Include="slides\2014\engine1\wowslider.js" />
+    <Content Include="slides\2014\engine1\wowslider.mod.js" />
+    <Content Include="slides\2014\slideshows-howto.html" />
+    <Content Include="slides\2014\slideshows-iframe.html" />
+    <Content Include="slides\2014\slideshows.html" />
+    <Content Include="slides\slides.html" />
+    <Content Include="slides\slide_css\demo.css" />
+    <Content Include="slides\slide_css\fonts.css" />
+    <Content Include="slides\slide_css\idea.css" />
+    <Content Include="slides\slide_css\ie.css" />
+    <Content Include="slides\slide_css\prettyPhoto.css" />
+    <Content Include="slides\slide_css\reset.css" />
+    <Content Include="slides\slide_css\style.css" />
+    <Content Include="slides\slide_images\2009\image_1.jpg" />
+    <Content Include="slides\slide_images\2009\image_10.jpg" />
+    <Content Include="slides\slide_images\2009\image_11.jpg" />
+    <Content Include="slides\slide_images\2009\image_12.jpg" />
+    <Content Include="slides\slide_images\2009\image_13.jpg" />
+    <Content Include="slides\slide_images\2009\image_14.jpg" />
+    <Content Include="slides\slide_images\2009\image_15.jpg" />
+    <Content Include="slides\slide_images\2009\image_16.jpg" />
+    <Content Include="slides\slide_images\2009\image_17.jpg" />
+    <Content Include="slides\slide_images\2009\image_18.jpg" />
+    <Content Include="slides\slide_images\2009\image_19.jpg" />
+    <Content Include="slides\slide_images\2009\image_2.jpg" />
+    <Content Include="slides\slide_images\2009\image_20.jpg" />
+    <Content Include="slides\slide_images\2009\image_21.jpg" />
+    <Content Include="slides\slide_images\2009\image_22.jpg" />
+    <Content Include="slides\slide_images\2009\image_23.jpg" />
+    <Content Include="slides\slide_images\2009\image_24.jpg" />
+    <Content Include="slides\slide_images\2009\image_25.jpg" />
+    <Content Include="slides\slide_images\2009\image_26.jpg" />
+    <Content Include="slides\slide_images\2009\image_27.jpg" />
+    <Content Include="slides\slide_images\2009\image_28.jpg" />
+    <Content Include="slides\slide_images\2009\image_29.jpg" />
+    <Content Include="slides\slide_images\2009\image_3.jpg" />
+    <Content Include="slides\slide_images\2009\image_30.jpg" />
+    <Content Include="slides\slide_images\2009\image_31.jpg" />
+    <Content Include="slides\slide_images\2009\image_32.jpg" />
+    <Content Include="slides\slide_images\2009\image_33.jpg" />
+    <Content Include="slides\slide_images\2009\image_34.jpg" />
+    <Content Include="slides\slide_images\2009\image_35.jpg" />
+    <Content Include="slides\slide_images\2009\image_36.jpg" />
+    <Content Include="slides\slide_images\2009\image_4.jpg" />
+    <Content Include="slides\slide_images\2009\image_5.jpg" />
+    <Content Include="slides\slide_images\2009\image_6.jpg" />
+    <Content Include="slides\slide_images\2009\image_7.jpg" />
+    <Content Include="slides\slide_images\2009\image_8.jpg" />
+    <Content Include="slides\slide_images\2009\image_9.jpg" />
+    <Content Include="slides\slide_images\2010\image1.jpg" />
+    <Content Include="slides\slide_images\2010\image10.jpg" />
+    <Content Include="slides\slide_images\2010\image11.jpg" />
+    <Content Include="slides\slide_images\2010\image12.jpg" />
+    <Content Include="slides\slide_images\2010\image13.jpg" />
+    <Content Include="slides\slide_images\2010\image14.jpg" />
+    <Content Include="slides\slide_images\2010\image15.jpg" />
+    <Content Include="slides\slide_images\2010\image16.jpg" />
+    <Content Include="slides\slide_images\2010\image17.jpg" />
+    <Content Include="slides\slide_images\2010\image18.jpg" />
+    <Content Include="slides\slide_images\2010\image19.jpg" />
+    <Content Include="slides\slide_images\2010\image2.jpg" />
+    <Content Include="slides\slide_images\2010\image20.jpg" />
+    <Content Include="slides\slide_images\2010\image21.jpg" />
+    <Content Include="slides\slide_images\2010\image22.jpg" />
+    <Content Include="slides\slide_images\2010\image3.jpg" />
+    <Content Include="slides\slide_images\2010\image4.jpg" />
+    <Content Include="slides\slide_images\2010\image5.jpg" />
+    <Content Include="slides\slide_images\2010\image6.jpg" />
+    <Content Include="slides\slide_images\2010\image7.jpg" />
+    <Content Include="slides\slide_images\2010\image8.jpg" />
+    <Content Include="slides\slide_images\2010\image9.jpg" />
+    <Content Include="slides\slide_images\2011\image1.jpg" />
+    <Content Include="slides\slide_images\2011\image10.jpg" />
+    <Content Include="slides\slide_images\2011\image11.jpg" />
+    <Content Include="slides\slide_images\2011\image12.jpg" />
+    <Content Include="slides\slide_images\2011\image13.jpg" />
+    <Content Include="slides\slide_images\2011\image14.jpg" />
+    <Content Include="slides\slide_images\2011\image15.jpg" />
+    <Content Include="slides\slide_images\2011\image16.jpg" />
+    <Content Include="slides\slide_images\2011\image17.jpg" />
+    <Content Include="slides\slide_images\2011\image18.jpg" />
+    <Content Include="slides\slide_images\2011\image19.jpg" />
+    <Content Include="slides\slide_images\2011\image2.jpg" />
+    <Content Include="slides\slide_images\2011\image20.jpg" />
+    <Content Include="slides\slide_images\2011\image21.jpg" />
+    <Content Include="slides\slide_images\2011\image22.jpg" />
+    <Content Include="slides\slide_images\2011\image23.jpg" />
+    <Content Include="slides\slide_images\2011\image24.jpg" />
+    <Content Include="slides\slide_images\2011\image25.jpg" />
+    <Content Include="slides\slide_images\2011\image26.jpg" />
+    <Content Include="slides\slide_images\2011\image3.jpg" />
+    <Content Include="slides\slide_images\2011\image4.jpg" />
+    <Content Include="slides\slide_images\2011\image5.jpg" />
+    <Content Include="slides\slide_images\2011\image6.jpg" />
+    <Content Include="slides\slide_images\2011\image7.jpg" />
+    <Content Include="slides\slide_images\2011\image8.jpg" />
+    <Content Include="slides\slide_images\2011\image9.jpg" />
+    <Content Include="slides\slide_images\2012\image1.jpg" />
+    <Content Include="slides\slide_images\2012\image10.jpg" />
+    <Content Include="slides\slide_images\2012\image11.jpg" />
+    <Content Include="slides\slide_images\2012\image12.jpg" />
+    <Content Include="slides\slide_images\2012\image13.jpg" />
+    <Content Include="slides\slide_images\2012\image14.jpg" />
+    <Content Include="slides\slide_images\2012\image15.jpg" />
+    <Content Include="slides\slide_images\2012\image16.jpg" />
+    <Content Include="slides\slide_images\2012\image17.jpg" />
+    <Content Include="slides\slide_images\2012\image18.jpg" />
+    <Content Include="slides\slide_images\2012\image19.jpg" />
+    <Content Include="slides\slide_images\2012\image2.jpg" />
+    <Content Include="slides\slide_images\2012\image20.jpg" />
+    <Content Include="slides\slide_images\2012\image21.jpg" />
+    <Content Include="slides\slide_images\2012\image22.jpg" />
+    <Content Include="slides\slide_images\2012\image23.jpg" />
+    <Content Include="slides\slide_images\2012\image24.jpg" />
+    <Content Include="slides\slide_images\2012\image25.jpg" />
+    <Content Include="slides\slide_images\2012\image26.jpg" />
+    <Content Include="slides\slide_images\2012\image27.jpg" />
+    <Content Include="slides\slide_images\2012\image28.jpg" />
+    <Content Include="slides\slide_images\2012\image29.jpg" />
+    <Content Include="slides\slide_images\2012\image3.jpg" />
+    <Content Include="slides\slide_images\2012\image30.jpg" />
+    <Content Include="slides\slide_images\2012\image31.jpg" />
+    <Content Include="slides\slide_images\2012\image32.jpg" />
+    <Content Include="slides\slide_images\2012\image33.jpg" />
+    <Content Include="slides\slide_images\2012\image34.jpg" />
+    <Content Include="slides\slide_images\2012\image35.jpg" />
+    <Content Include="slides\slide_images\2012\image4.jpg" />
+    <Content Include="slides\slide_images\2012\image5.jpg" />
+    <Content Include="slides\slide_images\2012\image6.jpg" />
+    <Content Include="slides\slide_images\2012\image7.jpg" />
+    <Content Include="slides\slide_images\2012\image8.jpg" />
+    <Content Include="slides\slide_images\2012\image9.jpg" />
+    <Content Include="slides\slide_images\imageLogo.jpg" />
+    <Content Include="slides\slide_images\pagination-a-active.gif" />
+    <Content Include="slides\slide_images\pagination-a-bg.gif" />
+    <Content Include="slides\slide_images\pagination-bg.gif" />
+    <Content Include="slides\slide_images\png.png" />
+    <Content Include="slides\slide_js\css.js" />
+    <Content Include="slides\slide_js\demo.js" />
+    <Content Include="slides\slide_js\forms.js" />
+    <Content Include="slides\slide_js\highlight.js" />
+    <Content Include="slides\slide_js\html-xml.js" />
+    <Content Include="slides\slide_js\html5.js" />
+    <Content Include="slides\slide_js\javascript.js" />
+    <Content Include="slides\slide_js\jquery-1.6.min.js" />
+    <Content Include="slides\slide_js\jquery.easing.1.3.js" />
+    <Content Include="slides\slide_js\PIE.htc" />
+    <Content Include="slides\slide_js\tms-0.3.js" />
+    <Content Include="slides\slide_js\tms_presets.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about\contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about\contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about\response.aspx.cs">
+      <DependentUpon>response.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about\response.aspx.designer.cs">
+      <DependentUpon>response.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about\speakers.aspx.cs">
+      <DependentUpon>speakers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about\speakers.aspx.designer.cs">
+      <DependentUpon>speakers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registration\payment.aspx.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registration\payment.aspx.designer.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registration\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registration\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site_template\success.aspx.cs">
+      <DependentUpon>success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site_template\success.aspx.designer.cs">
+      <DependentUpon>success.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about\contact.aspx" />
+    <Content Include="about\directions.html" />
+    <Content Include="about\response.aspx" />
+    <Content Include="about\speakersbio.html" />
+    <Content Include="about\testimony.html" />
+    <Content Include="about\speakers.aspx" />
+    <Content Include="about\retreatinfo.html" />
+    <Content Include="about\leadership.html" />
+    <Content Include="about\purpose.html" />
+    <Content Include="about\themeinfo.html" />
+    <Content Include="articles\article_1005062012_1.html" />
+    <Content Include="articles\article_1005062012_2.html" />
+    <Content Include="articles\article_1005062012_3.html" />
+    <Content Include="articles\articlesmain.html" />
+    <Content Include="css\grid.css" />
+    <Content Include="css\ie.css" />
+    <Content Include="css\prettyPhoto.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\style.css" />
+    <Content Include="emails\client.txt" />
+    <Content Include="index.html" />
+    <Content Include="js\cufon-replace.js" />
+    <Content Include="js\cufon-yui.js" />
+    <Content Include="js\FF-cash.js" />
+    <Content Include="js\forms.js" />
+    <Content Include="js\hover-image.js" />
+    <Content Include="js\html5.js" />
+    <Content Include="js\jcarousellite.js" />
+    <Content Include="js\jquery-1.7.min.js" />
+    <Content Include="js\jquery.cycle.all.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.hoverIntent.js" />
+    <Content Include="js\jquery.prettyPhoto.js" />
+    <Content Include="js\jquery.tools.min-1.2.5.js" />
+    <Content Include="js\Lato_700.font.js" />
+    <Content Include="js\Lato_Black_900.font.js" />
+    <Content Include="js\Lato_Light_300.font.js" />
+    <Content Include="js\main_2.js" />
+    <Content Include="js\PIE.htc" />
+    <Content Include="js\script.js" />
+    <Content Include="js\superfish.js" />
+    <Content Include="js\tms-0.3.js" />
+    <Content Include="js\tms_presets.js" />
+    <Content Include="registration\cancel.html" />
+    <Content Include="registration\payment.aspx" />
+    <Content Include="registration\paypalButtonCode.txt" />
+    <Content Include="registration\register.aspx" />
+    <Content Include="images\IpsThumb.db" />
+    <Content Include="ClassDiagram1.cd" />
+    <Content Include="Downloads\flyer.pdf" />
+    <None Include="js\PIE.php" />
+    <Content Include="registration\registernow.html" />
+    <Content Include="Site_template\success.aspx" />
+    <Content Include="videos\2011WomenSeekingthe FatherRetreat-1.jpg" />
+    <Content Include="videos\2011WomenSeekingthe FatherRetreat-1.swf" />
+    <Content Include="videos\2011WomenSeekingthe FatherRetreat-2.jpg" />
+    <Content Include="videos\2011WomenSeekingthe FatherRetreat-2.swf" />
+    <Content Include="videos\2011WomenSeekingthe FatherRetreat.jpg" />
+    <Content Include="videos\2011WomenSeekingthe FatherRetreat.swf" />
+    <Content Include="videos\MVI_2022.jpg" />
+    <Content Include="videos\MVI_2022.swf" />
+    <Content Include="videos\video3.html" />
+    <Content Include="videos\video2.html" />
+    <Content Include="videos\video1.html" />
+    <Content Include="videos\videos.html" />
+    <None Include="Properties\PublishProfiles\wstf06172013.pubxml" />
+    <Content Include="slides\2014\2009slides.wowsl" />
+    <Content Include="slides\2014\engine1\fullscreen.eot" />
+    <Content Include="slides\2014\engine1\fullscreen.ttf" />
+    <Content Include="slides\2014\engine1\fullscreen.woff" />
+    <Content Include="slides\slide_images\2011.zip" />
+    <Content Include="slides\slide_js\PIE.php" />
+    <None Include="videos\2011WomenSeekingthe FatherRetreat-1.flv" />
+    <None Include="videos\2011WomenSeekingthe FatherRetreat-2.flv" />
+    <None Include="videos\2011WomenSeekingthe FatherRetreat.flv" />
+    <None Include="videos\MVI_2022.flv" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="slides\2011\data1\thumbnails\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="RegexUtility\RegexUtility.csproj">
+      <Project>{606580d5-edd3-4b72-9c64-559517b351e6}</Project>
+      <Name>RegexUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50081</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

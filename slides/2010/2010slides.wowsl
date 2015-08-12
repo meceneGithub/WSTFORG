@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>7.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>false</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>20</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>2007 slideshow</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>tv,collage,domino</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/flat/</ImageTemplate>
+            <ImageTemplateName>Flat</ImageTemplateName>
+            <ImageWidth>960</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/TFS2012/Womenseekingthefather/WSTFNewSite/wstfministry_52191/Slides/2007/2007slideshow.html</PublishFileName>
+            <PublishIndex>2007slideshow.html</PublishIndex>
+            <PublishPath>C:/TFS2012/Womenseekingthefather/WSTFNewSite/wstfministry_52191/Slides/2007</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>2</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#fff</TemplateColor>
+            <TemplateFont>Signika</TemplateFont>
+            <TemplateName>flat</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0856.JPG</url>
+                <title>IMG_0856</title>
+                <filesize>1832825</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0857.JPG</url>
+                <title>IMG_0857</title>
+                <filesize>2155806</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0860.JPG</url>
+                <title>IMG_0860</title>
+                <filesize>1491285</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0861.JPG</url>
+                <title>IMG_0861</title>
+                <filesize>1696977</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0862.JPG</url>
+                <title>IMG_0862</title>
+                <filesize>2666486</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0867.JPG</url>
+                <title>IMG_0867</title>
+                <filesize>2150050</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0869.JPG</url>
+                <title>IMG_0869</title>
+                <filesize>1751783</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0871.JPG</url>
+                <title>IMG_0871</title>
+                <filesize>1953345</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0873.JPG</url>
+                <title>IMG_0873</title>
+                <filesize>2040440</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0874.JPG</url>
+                <title>IMG_0874</title>
+                <filesize>1711835</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0875.JPG</url>
+                <title>IMG_0875</title>
+                <filesize>1759296</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0892.JPG</url>
+                <title>IMG_0892</title>
+                <filesize>1564950</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0897.JPG</url>
+                <title>IMG_0897</title>
+                <filesize>1397818</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0899.JPG</url>
+                <title>IMG_0899</title>
+                <filesize>1588878</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0901.JPG</url>
+                <title>IMG_0901</title>
+                <filesize>2138631</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0905.JPG</url>
+                <title>IMG_0905</title>
+                <filesize>1905829</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0906.JPG</url>
+                <title>IMG_0906</title>
+                <filesize>2640653</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0931.JPG</url>
+                <title>IMG_0931</title>
+                <filesize>1526846</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0936.JPG</url>
+                <title>IMG_0936</title>
+                <filesize>1875391</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0937.JPG</url>
+                <title>IMG_0937</title>
+                <filesize>2155697</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0938.JPG</url>
+                <title>IMG_0938</title>
+                <filesize>1787032</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0939.JPG</url>
+                <title>IMG_0939</title>
+                <filesize>1121884</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0944.JPG</url>
+                <title>IMG_0944</title>
+                <filesize>1811592</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0945.JPG</url>
+                <title>IMG_0945</title>
+                <filesize>1944478</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0946.JPG</url>
+                <title>IMG_0946</title>
+                <filesize>2182333</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0947.JPG</url>
+                <title>IMG_0947</title>
+                <filesize>1536863</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0951.JPG</url>
+                <title>IMG_0951</title>
+                <filesize>1698012</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0953.JPG</url>
+                <title>IMG_0953</title>
+                <filesize>2137341</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0954.JPG</url>
+                <title>IMG_0954</title>
+                <filesize>2546920</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0955.JPG</url>
+                <title>IMG_0955</title>
+                <filesize>2666614</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0957.JPG</url>
+                <title>IMG_0957</title>
+                <filesize>2062756</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0958.JPG</url>
+                <title>IMG_0958</title>
+                <filesize>2246236</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0959.JPG</url>
+                <title>IMG_0959</title>
+                <filesize>2018232</filesize>
+            </Image>
+            <Image>
+                <url>C:/Music Ministry/Videos_Loops_Pics/Pics/Retreat/2011/2011_Slides/IMG_0962.JPG</url>
+                <title>IMG_0962</title>
+                <filesize>1505545</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

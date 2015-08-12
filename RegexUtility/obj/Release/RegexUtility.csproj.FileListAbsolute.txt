@@ -1,0 +1,4 @@
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\bin\Release\RegexUtility.dll
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\bin\Release\RegexUtility.pdb
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\obj\Release\RegexUtility.dll
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\obj\Release\RegexUtility.pdb

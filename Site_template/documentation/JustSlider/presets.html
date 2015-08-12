@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Presets</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/fonts.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/idea.css" type="text/css" media="all">    
+  <script type="text/javascript" src="js/jquery-1.6.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/tms-0.3.js"></script>
+  <script type="text/javascript" src="js/tms_presets.js"></script>  
+  <!-- demo -->
+  <link rel="stylesheet" href="css/demo.css" type="text/css" media="all">
+  <!-- end demo -->  
+  <script src="js/highlight.js"></script>
+  <script src="js/html5.js"></script>
+  <script src="js/html-xml.js"></script>
+  <script src="js/css.js"></script>
+  <script src="js/javascript.js"></script>
+  
+  <script>
+    hljs.tabReplace = '    ';
+    hljs.initHighlightingOnLoad();
+	
+	$(document).ready(function(){
+		$('.slider')._TMS({
+			show:0,
+			pauseOnHover:false,
+			prevBu:'.prev',
+			nextBu:'.next',
+			playBu:'.play',
+			duration:1000,
+			preset:'fadeThree',
+			pagination:true,//'.pagination',true,'<ul></ul>'
+			pagNums:false,
+			slideshow:7000,
+			numStatus:true,
+			banners:false,// fromLeft, fromRight, fromTop, fromBottom
+			waitBannerAnimation:false,
+			progressBar:'<div class="progbar"></div>'
+		})		
+ })
+  </script>
+  
+  <!--[if lt IE 7]>
+  	<link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="screen">    
+  <![endif]-->
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+	<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">    
+  <![endif]-->
+</head>
+
+<body>
+	<div id="main">
+		<div class="inside">
+			<!-- header -->
+			<header id="header">
+				<div class="inside">
+					<h1>
+Presets</h1>
+				</div>
+			</header>
+			<section id="content">
+				<article>		
+					<div class="inner">
+						<div id="slide">			  	
+							<!-- slider -->
+							<div class="slider">
+								<ul class="items">
+									<li><img src="images/slide-1.jpg" alt="" /></li>
+									<li><img src="images/slide-2.jpg" alt="" /></li>
+									<li><img src="images/slide-3.jpg" alt="" /></li>
+									<li><img src="images/slide-4.jpg" alt="" /></li>
+									<li><img src="images/slide-5.jpg" alt="" /></li>
+									<li><img src="images/slide-6.jpg" alt="" /></li>
+									<li><img src="images/slide-7.jpg" alt="" /></li>
+								</ul>
+							</div>	
+							<a href="#" class="prev">&lt;</a> <a href="#" class="play"><em>stop</em><span>play</span></a> <a href="#" class="next">&gt;</a>
+							<!-- slider end -->	
+						</div>								
+						<div class="wrapper">
+							<div class="col-1">
+								<p class="pad"><strong>To create presets please use this model: :</strong></p>
+								<form id="options">						  
+								  <label><span>Reverse way</span>
+									<input type="checkbox" name="reverseWay">
+								  </label><br>
+								  <label><span>Duration</span>
+									<input type="text" name="duration" value="1000">
+								  </label><br>
+								  <label><span>Interval</span>
+									<input type="text" name="interval" value="1">
+								  </label><br>
+								  <label><span>BlocksX</span>
+									<input type="text" name="blocksX" value="1">
+								  </label><br>
+								  <label><span>BlocksY</span>
+									<input type="text" name="blocksY" value="1">
+								  </label><br>
+								  <label><span>Easing</span>
+									<select name="easing">
+									  <option>linear</option>
+									  <option>swing</option>
+									  <option>easeInQuad</option>
+									  <option>easeOutQuad</option>
+									  <option>easeInOutQuad</option>
+									  <option>easeInCubic</option>
+									  <option>easeOutCubic</option>
+									  <option>easeInOutCubic</option>
+									  <option>easeInQuart</option>
+									  <option>easeOutQuart</option>
+									  <option>easeInOutQuart</option>
+									  <option>easeInQuint</option>
+									  <option>easeOutQuint</option>
+									  <option>easeInOutQuint</option>
+									  <option>easeInSine</option>
+									  <option>easeOutSine</option>
+									  <option>easeInOutSine</option>
+									  <option>easeInExpo</option>
+									  <option>easeOutExpo</option>
+									  <option>easeInOutExpo</option>
+									  <option>easeInCirc</option>
+									  <option>easeOutCirc</option>
+									  <option>easeInOutCirc</option>
+									  <option>easeInElastic</option>
+									  <option>easeOutElastic</option>
+									  <option>easeInOutElastic</option>
+									  <option>easeInBack</option>
+									  <option>easeOutBack</option>
+									  <option>easeInOutBack</option>
+									  <option>easeInBounce</option>
+									  <option>easeOutBounce</option>
+									  <option>easeInOutBounce</option>
+									</select>
+								  </label><br>
+								  <label><span>way</span>
+									<select name="way">
+									  <option>lines</option>
+									  <option>spiral</option>
+									  <option>diagonal</option>
+									  <option>vSnake</option>
+									  <option>gSnake</option>
+									  <option>chess</option>
+									  <option>randomly</option>
+									</select>
+								  </label><br>
+								  <label><span>animation</span>
+									<select name="anim">
+									  <option>fade</option>
+									  <option>expand</option>
+									  <option>slideDown</option>
+									  <option>slideUp</option>
+									  <option>slideLeft</option>
+									  <option>slideRight</option>
+									  <option>gSlider</option>
+									  <option>vSlider</option>
+									  <option>slideFromTop</option>
+									  <option>slideFromDown</option>
+									  <option>slideFromLeft</option>
+									  <option>slideFromRight</option>
+									  <option>vSlideOdd</option>
+									  <option>gSlideOdd</option>
+									  <option>fadeThree</option>
+									</select>
+								  </label><br>
+								  <button id="get_opt">get preset</button>
+								  <div class="preset1">Preset:<div class="preset"></div></div>
+								</form>
+							</div>
+							<div class="col-2">
+								<p class="pad"><strong>Attributes to edit:</strong></p>
+								<div class="inner">
+									<ul class="pad">
+										<li><strong>reverse way</strong> &ndash; reverse the direction of animation;</li>
+										<li><strong>duration</strong> &ndash; the duration of one animation block;</li>
+										<li><strong>interval</strong> &ndash; the period of time in which one animation is followed by another;</li>
+										<li><strong>blocksX</strong> &ndash; the number of blocks located horizontally;</li>
+										<li><strong>blocksY</strong> &ndash; the number of blocks located vertically;</li>
+										<li><strong>easing</strong> - Easing pattern;</li>
+										<li><strong>way</strong> - the way animatuion runs;</li>
+										<li><strong>animation</strong> - the animation type;</li>
+									</ul>
+								</div>	
+							</div>
+						</div>
+						<p class="pad">To create the new preset, please use the ready-made one, change certain settings and then click <strong>get preset</strong>. As soon as it is clicked you will see the line that you should copy into the file <strong>tms_presets.js</strong>. You should add it into the object <strong>presets:{}</strong> - located at the top of the file, in the same way the other presets are listed.</p> <p class="pad">It is important to set the unique name that will be used for the preset during the initialization:</p>												
+						<div class="code"><pre><code class="min">uniquename:{"reverseWay":false,"duration":"1000","interval":"1","blocksX":"1","blocksY":"1","easing":"","way":"lines","anim":"fadeThree"}</code></pre></div>
+					</div>
+				</article> 
+			</section>
+		</div>
+	</div>
+<script type="text/javascript">
+	$(window).load(function(){   
+		var slider=$('.slider')	
+		opt=slider.data('opt')
+		$('form#options *').bind('change',function(){
+			if(this.type=='checkbox')
+				opt[this.name]=this.value=='on'?true:false
+			else
+				opt[this.name]=this.value
+		})
+		
+		$('.presets li').click(function(){
+			var th=$(this),
+				preset=th.text(),
+				itm
+			th.addClass('curr').siblings().removeClass('curr')
+			opt.preset=preset
+			for(itm in _TMS.presets[preset])
+					$('#options [name='+itm+']').attr({value:_TMS.presets[preset][itm]})
+		})
+		
+		$('#get_opt').click(function(){
+			var ret=[],
+				fields="reverseWay,duration,interval,blocksX,blocksY,easing,way,anim".split(','),
+				i,type
+			for(i=0;i<fields.length;i++)
+				type=typeof opt[fields[i]],
+				ret.push(
+						 type=='boolean'||type=='number'?
+							fields[i]+':'+opt[fields[i]]:
+							fields[i]+':"'+opt[fields[i]]+'"'
+						 )		
+	
+			$('.preset').text('{'+ret+'}')
+			return false
+		})
+	})
+</script>
+
+</body>
+</html>

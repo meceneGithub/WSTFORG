@@ -1,0 +1,12 @@
+.button-3, .text_a, .inp {behavior: url(js/PIE.htc); position:relative;}
+.button-1 {behavior: url(js/PIE.htc);}
+.menu li a {
+	padding:11px 0 13px 0;
+}
+.button-2 em,
+.form2_btm em {
+	bottom:-2px;
+}
+h5 {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
+}

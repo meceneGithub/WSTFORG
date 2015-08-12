@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>7.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>false</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>24</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>2007 slideshow</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>tv,collage</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/bootstrap/</ImageTemplate>
+            <ImageTemplateName>Bootstrap</ImageTemplateName>
+            <ImageWidth>960</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/TFS2012/Womenseekingthefather/WSTFNewSite/wstfministry_52191/Slides/2007/2007slideshow.html</PublishFileName>
+            <PublishIndex>2007slideshow.html</PublishIndex>
+            <PublishPath>C:/TFS2012/Womenseekingthefather/WSTFNewSite/wstfministry_52191/Slides/2007</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>2</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#ffffff</TemplateColor>
+            <TemplateFont>Helvetica Neue</TemplateFont>
+            <TemplateName>bootstrap</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0046.jpg</url>
+                <title>Zoo0046</title>
+                <filesize>132285</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0047.jpg</url>
+                <title>Zoo0047</title>
+                <filesize>95779</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0048.jpg</url>
+                <title>Zoo0048</title>
+                <filesize>83874</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0049.jpg</url>
+                <title>Zoo0049</title>
+                <filesize>76013</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0050.jpg</url>
+                <title>Zoo0050</title>
+                <filesize>91820</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0021.jpg</url>
+                <title>Zoo0021</title>
+                <filesize>81984</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0022.jpg</url>
+                <title>Zoo0022</title>
+                <filesize>104622</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0023.jpg</url>
+                <title>Zoo0023</title>
+                <filesize>131777</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0024.jpg</url>
+                <title>Zoo0024</title>
+                <filesize>143782</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0025.jpg</url>
+                <title>Zoo0025</title>
+                <filesize>140231</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0026.jpg</url>
+                <title>Zoo0026</title>
+                <filesize>112453</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0027.jpg</url>
+                <title>Zoo0027</title>
+                <filesize>136711</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0028.jpg</url>
+                <title>Zoo0028</title>
+                <filesize>130163</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0029.jpg</url>
+                <title>Zoo0029</title>
+                <filesize>146663</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0030.jpg</url>
+                <title>Zoo0030</title>
+                <filesize>48588</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0031.jpg</url>
+                <title>Zoo0031</title>
+                <filesize>90590</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0032.jpg</url>
+                <title>Zoo0032</title>
+                <filesize>52453</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0033.jpg</url>
+                <title>Zoo0033</title>
+                <filesize>79149</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0034.jpg</url>
+                <title>Zoo0034</title>
+                <filesize>133850</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0035.jpg</url>
+                <title>Zoo0035</title>
+                <filesize>104745</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0036.jpg</url>
+                <title>Zoo0036</title>
+                <filesize>125516</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0037.jpg</url>
+                <title>Zoo0037</title>
+                <filesize>135567</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0038.jpg</url>
+                <title>Zoo0038</title>
+                <filesize>102648</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0039.jpg</url>
+                <title>Zoo0039</title>
+                <filesize>132289</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0040.jpg</url>
+                <title>Zoo0040</title>
+                <filesize>105653</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0041.jpg</url>
+                <title>Zoo0041</title>
+                <filesize>104442</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0042.jpg</url>
+                <title>Zoo0042</title>
+                <filesize>106935</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0043.jpg</url>
+                <title>Zoo0043</title>
+                <filesize>59804</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0044.jpg</url>
+                <title>Zoo0044</title>
+                <filesize>100362</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2007/WebAlbum/Women Ministry 2007 Retreat-0001/slides/Zoo0045.jpg</url>
+                <title>Zoo0045</title>
+                <filesize>102275</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

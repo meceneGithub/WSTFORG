@@ -1,0 +1,5 @@
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\bin\Debug\RegexUtility.dll
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\bin\Debug\RegexUtility.pdb
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\obj\Debug\RegexUtility.csprojResolveAssemblyReference.cache
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\obj\Debug\RegexUtility.dll
+C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\obj\Debug\RegexUtility.pdb

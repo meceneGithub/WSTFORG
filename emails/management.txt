@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>2015 Women Retreat Registration Request</title>
+</head>
+<body>
+    <div style='border: solid 1px #cccccc; width: 588px; padding-left: 10px; margin: 0 auto;
+        font-size: large'>
+        <div title='headerWrapper' style='width: 580px; padding:10px'>
+            <div title='header' style='width: 600px; height: 101px;'>
+                <img alt='' src='http://womenseekingthefather.org/images/logo.jpg' />
+            </div>
+            <div>
+                <p>
+                   This request is from <%client_name%> for registration to the 2015 Haitian women Annual Retreat.</p>
+                <div>
+					Please follow the following steps to complete the registration process:
+					<ol>
+						<li>Create a Paypal invoice for <%client_name%> for <%client_RoomSelection_Payment%> add $2.50 processing fee.</li>
+						<li>Email the Paypal invoice to <%client_email%></li>
+						<li>After funds is received, send final registration detail information to the client Email - <%client_email%></li>
+					</ol>
+				</div>
+
+				<p>
+                    <u>Client submitted the following information:</u><br />
+                    Name: <%client_name%>
+                   <br />
+				   Church: <%client_church%>
+                   <br />
+                    Email Address:  <%client_email%>
+					<br />
+                    State:  <%client_state%>
+                    <br />
+                    Phone:  <%client_phone%>
+					<br />
+					Room Preference:  <%client_RoomSelection%> 
+					<br />
+					Total: <%client_RoomSelection_Payment%>    
+				</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

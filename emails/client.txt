@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>2015 Woment Retreat Registration</title>
+</head>
+<body>
+    <div style='border: solid 1px #cccccc; width: 588px; padding-left: 10px; margin: 0 auto;
+        font-size: large'>
+        <div title='headerWrapper' style='width: 580px; padding:10px'>
+            <div title='header' style='width: 600px; height: 101px;'>
+                <img alt='' src='http://womenseekingthefather.org/images/logo.jpg' />
+            </div>
+            <div>
+                <p>
+                    Dear <%client_name%>:</p>
+                <p>
+                    Thank you for registration request to attend the 2015 Haitian Women Retreat sponsored
+                    by Women Seeking the Father Ministry.</p>
+                <p style="font-weight: bold; color: Red">
+                    Please Note:<br />
+                    ***<b>Your registration is not fully completed.</b> Within the next few days, you will receive a Paypal invoice for a total of <%client_RoomSelection_Payment%> plus a $2.50 processing fee.
+					Once payment is received, you will get a confirmation email completing your registration for the 2015 Haitian women conference.</p>
+                <p>
+                    <u>You submitted the following information:</u><br />
+                    Your Name: <%client_name%>
+                   <br />
+				   Your Church: <%client_church%>
+                   <br />
+                    Email Address:  <%client_email%>
+					<br />
+                    State:  <%client_state%>
+                    <br />
+                    Phone:  <%client_phone%>
+                  
+                </p>
+				<p>You have selected:  <%client_RoomSelection%> </p>
+                <p style="border-bottom: solid 1px #000000">
+				Your Total:<%client_RoomSelection_Payment%>    
+				</p>
+                
+                <p>
+                    In Christ,
+                    <br />
+                    Emma Soy, Founder - Director<br />
+                    Women Seeking the Father Ministry<br />
+                    Chicago, Illinois</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

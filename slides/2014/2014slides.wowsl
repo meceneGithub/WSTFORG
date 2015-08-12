@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>7.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>false</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>24</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>2014 Slides</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>fade</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/absent/</ImageTemplate>
+            <ImageTemplateName>Absent</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Mecene/Documents\WOW Slider/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>C:/Users/Mecene/Documents\WOW Slider</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>2</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#fff</TemplateColor>
+            <TemplateFont>Slabo 27px</TemplateFont>
+            <TemplateName>absent</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/CAM00191.jpg</url>
+                <title>CAM00191</title>
+                <filesize>2701878</filesize>
+                <rotate>90</rotate>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6039.JPG</url>
+                <title>DSC_6039</title>
+                <filesize>3566948</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6050.JPG</url>
+                <title>DSC_6050</title>
+                <filesize>3032599</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6082.JPG</url>
+                <title>DSC_6082</title>
+                <filesize>3410025</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6085.JPG</url>
+                <title>DSC_6085</title>
+                <filesize>3526279</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6089.JPG</url>
+                <title>DSC_6089</title>
+                <filesize>2993079</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6097.JPG</url>
+                <title>DSC_6097</title>
+                <filesize>2999934</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6105.JPG</url>
+                <title>DSC_6105</title>
+                <filesize>3365403</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6107.JPG</url>
+                <title>DSC_6107</title>
+                <filesize>2971986</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6109.JPG</url>
+                <title>DSC_6109</title>
+                <filesize>2991446</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6132.JPG</url>
+                <title>DSC_6132</title>
+                <filesize>3244584</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6136.JPG</url>
+                <title>DSC_6136</title>
+                <filesize>3545693</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6139.JPG</url>
+                <title>DSC_6139</title>
+                <filesize>3057304</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6141.JPG</url>
+                <title>DSC_6141</title>
+                <filesize>2970843</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6142.JPG</url>
+                <title>DSC_6142</title>
+                <filesize>3545145</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6146.JPG</url>
+                <title>DSC_6146</title>
+                <filesize>3357020</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6155.JPG</url>
+                <title>DSC_6155</title>
+                <filesize>3053236</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6156.JPG</url>
+                <title>DSC_6156</title>
+                <filesize>3009014</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6159.JPG</url>
+                <title>DSC_6159</title>
+                <filesize>3008747</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6167.JPG</url>
+                <title>DSC_6167</title>
+                <filesize>3302500</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6174.JPG</url>
+                <title>DSC_6174</title>
+                <filesize>3649624</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6175.JPG</url>
+                <title>DSC_6175</title>
+                <filesize>3555334</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6176.JPG</url>
+                <title>DSC_6176</title>
+                <filesize>3433227</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6333.JPG</url>
+                <title>DSC_6333</title>
+                <filesize>3011004</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6342.JPG</url>
+                <title>DSC_6342</title>
+                <filesize>3020043</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6344.JPG</url>
+                <title>DSC_6344</title>
+                <filesize>2959877</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6356.JPG</url>
+                <title>DSC_6356</title>
+                <filesize>3037918</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6360.JPG</url>
+                <title>DSC_6360</title>
+                <filesize>2971998</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6362.JPG</url>
+                <title>DSC_6362</title>
+                <filesize>3016173</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6365.JPG</url>
+                <title>DSC_6365</title>
+                <filesize>2975352</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6373.JPG</url>
+                <title>DSC_6373</title>
+                <filesize>2979687</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6384.JPG</url>
+                <title>DSC_6384</title>
+                <filesize>3016484</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6388.JPG</url>
+                <title>DSC_6388</title>
+                <filesize>3003993</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6409.JPG</url>
+                <title>DSC_6409</title>
+                <filesize>3019728</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6420.JPG</url>
+                <title>DSC_6420</title>
+                <filesize>2984047</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6440.JPG</url>
+                <title>DSC_6440</title>
+                <filesize>3503557</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6449.JPG</url>
+                <title>DSC_6449</title>
+                <filesize>3503824</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6457.JPG</url>
+                <title>DSC_6457</title>
+                <filesize>2992759</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6458.JPG</url>
+                <title>DSC_6458</title>
+                <filesize>2998645</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6460.JPG</url>
+                <title>DSC_6460</title>
+                <filesize>3052442</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6463.JPG</url>
+                <title>DSC_6463</title>
+                <filesize>3034661</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6467.JPG</url>
+                <title>DSC_6467</title>
+                <filesize>2962150</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6474.JPG</url>
+                <title>DSC_6474</title>
+                <filesize>2991351</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6476.JPG</url>
+                <title>DSC_6476</title>
+                <filesize>3613887</filesize>
+            </Image>
+            <Image>
+                <url>C:/Women_Retreat/2014/WOMEN SEEKING THE FATHER 2014/more pics/DSC_6567 EDITED.jpg</url>
+                <title>DSC_6567 EDITED</title>
+                <filesize>2072350</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
