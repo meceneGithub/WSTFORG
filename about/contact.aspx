@@ -97,26 +97,13 @@
                             <div class="rel">
                                 <div class="slider">
                                     <ul class="items">
-                                          <li><img src="/images/slide_Default_1.png" alt="" />
-                                        <div class="banner b1">
-                                             <div class="indent_b1"  style=" margin-left:-0px">                                                   
-                                                </div>
-                                        </div>
-                                    </li> 
-                                        <li><img src="/images/slide_Default_2.png" alt="" />
-                                            <div class="banner b1" >
-                                                <div class="indent_b1" style="display:block">
-                                                </div>
-                                            </div>
-                                        </li> 
-                                       <li><img src="/images/slide_Default_3.png" alt="" />                                          
+                                       <li><img src="/images/slide_Default_2.png" alt="" />                                          
                                             <div class="banner b1">
                                                 <div class="indent_b1" style="display:block">
                                                 </div>
                                             </div>
                                         </li>                                    
-                                    </ul>
-                                </div>
+                                    </ul>                                </div>
                                 <a class="prev" href="#">prev</a>
                                 <a class="next" href="#">next</a>
                             </div>
