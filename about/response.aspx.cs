@@ -33,7 +33,7 @@ namespace WSTFORG.about
             }
             else if (Request.QueryString["a"] == "registration")
             {
-                responseText.Text = "For registering to attend the 2015 Women retreat. <br /> Please check your email for instructions to complete your registration.";
+                responseText.Text = "For registering to attend the 2016 Women retreat. <br /> Please check your email for instructions to complete your registration.";
                 responseText.Visible = true;
                 sThanks.Visible = true;
 
@@ -68,7 +68,7 @@ namespace WSTFORG.about
         //    mailMsg.To.Add(new MailAddress((string)(Session["client_email"])));
 
 
-        //    mailMsg.Subject = "2015 Women Retreat Registration Information";
+        //    mailMsg.Subject = "2016 Women Retreat Registration Information";
         //    sEmail = "<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>";
         //    sEmail += "<html xmlns='http://www.w3.org/1999/xhtml'>";
         //    sEmail += "<head>";
@@ -87,7 +87,7 @@ namespace WSTFORG.about
         //    sEmail += "    <p>";
         //    sEmail += "       <strong>Thank you for Registering.</strong>";
         //    sEmail += "       <br />";
-        //    sEmail += "       Below are important information about the 2015 Haitian Women Retreat.";
+        //    sEmail += "       Below are important information about the 2016 Haitian Women Retreat.";
         //    sEmail += "    </p>";
         //    sEmail += "     <p>";
         //    sEmail += "         Our theme for this year is:<strong>Purpose and Destiny</strong>";

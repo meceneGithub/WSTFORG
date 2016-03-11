@@ -98,7 +98,7 @@
         <header>
             	<div class="main">
                     <div class="wrapper">
-                        <h1><a href="/index.html">Home</a></h1>
+                        <h1><a href="/homepage/index.html">Home</a></h1>
                         <div class="col-1">
                            <div class="bg-1_">
                                 <span><ul class="soc_list">
@@ -112,7 +112,7 @@
                 <nav>
                 <div class="main">
 <ul class="menu">
-                    <li><a href="../index.html">
+                    <li><a href="../homepage/index.html">
                         <img src="../images/home.jpg" alt="" /></a></li>
                     <li><a class="active_" href="/about/purpose.html">About Us</a>
                         <ul>
@@ -125,11 +125,11 @@
                     </li>
                     <li><a href="/registration/register.aspx?a=registration">Registration</a></li>
                     <li><a href="/about/speakers.aspx">The speakers</a></li>
-                    <li><a href="#">2015 Retreat</a>
+                    <li><a href="#">2016 Retreat</a>
                         <ul>
                             <!--<li><a href="/about/retreatinfo.html">Retreat Details</a></li>-->
-                            <li><a href="/about/flyer.html">2015 Retreat Flyer</a></li>
-                            <li><a href="/about/themeinfo.html">2015 Theme</a></li>
+                            <li><a href="/about/flyer.html">2016 Retreat Flyer</a></li>
+                            <li><a href="/about/themeinfo.html">2016 Theme</a></li>
                             <li><a href="/about/speakers.aspx">Speakers & Bio</a></li>
                             <li><a href="/about/retreatinfo.html">Retreat Info</a></li> 
                             <li><a href="/about/directions.html">Directions</a></li>
@@ -158,8 +158,8 @@
                                             </div>
                                         </li>                                    
                                     </ul>                                </div>
-                                <a class="prev" href="#">prev</a>
-                                <a class="next" href="#">next</a>
+                              <%--  <a class="prev" href="#">prev</a>
+                                <a class="next" href="#">next</a>--%>
                             </div>
                         </article>
                     <div class="clear">
@@ -173,7 +173,7 @@
                 	<div class="container_24">
                     	<div class="wrapper">
                         	<article class="grid_7 suffix_1">
-                            	<h3 class="reg" style="font-size: 16px; color: #e34554; font-weight: bolder">2015 Guest Speakers:</h3><br />
+                            	<h3 class="reg" style="font-size: 16px; color: #e34554; font-weight: bolder">2016 Guest Speakers:</h3><br />
                               <ul class="ul-10">
                                     <li><h5 style=" color:Maroon;font-size:18px;">Pastor <br /> Diane Jacques St. Surin</h5>
                                         Cortelyou Rd. Church of God<br />CRCG Ministries<br />Brooklyn, NY
@@ -279,7 +279,7 @@
                     </div>
                     <div class="col-indent" id="DonotDisplaySpeakerList" runat="server">
                        <p class="contentText">
-                            The 2015 Speaker list will be updated at the appropriate time.</p>
+                            The 2016 Speaker list will be updated at the appropriate time.</p>
                     </div>
                 
                             </article>
@@ -296,7 +296,7 @@
                 	<div class="wrapper">
                     	<article class="grid_8 indent-top2">
                         	<div class="bg-2_">
-                            	<h3 style=" font-size:16px">Women Seeking the Father &copy; 2015</h3>
+                            	<h3 style=" font-size:16px">Women Seeking the Father &copy; 2016</h3>
                                                                <!--{%FOOTER_LINK} -->
                                   E -mail: <a href="contact.aspx" class="link2 color-2">info@womenseekingthefather.org</a><br/>
                             Phone: (847) 901-3016<br />

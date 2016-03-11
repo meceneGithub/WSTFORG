@@ -37,16 +37,16 @@ namespace WSTFORG.registration
                 
                 switch (DropDownList1.SelectedItem.Value)
                     {
-                        case "$165":
+                        case "$170":
                             userRoomingPreference = "4 Persons/per room";
                             break;
-                        case "$180":
+                        case "$185":
                             userRoomingPreference = "3 Persons/per room";
                             break;
-                        case "$195":
+                        case "$200":
                             userRoomingPreference = "2 Persons/per room";
                             break;
-                        case "$250":
+                        case "$260":
                             userRoomingPreference = "Single room";
                             break;
                         default:
@@ -61,7 +61,7 @@ namespace WSTFORG.registration
                 Session["client_email"] = userEmail.Value.ToString();
                 Session["client_RoomSelection"] = (string)(userRoomingPreference);
                 Session["client_RoomSelection_Payment"] = DropDownList1.SelectedItem.Value.ToString();
-
+                        
 
                 switch (Request.QueryString["a"])
                 {

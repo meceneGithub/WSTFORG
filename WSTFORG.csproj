@@ -28,6 +28,7 @@
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
     <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -1228,7 +1229,7 @@
     <Content Include="css\reset.css" />
     <Content Include="css\style.css" />
     <Content Include="emails\client.txt" />
-    <Content Include="index.html" />
+    <Content Include="indexOld.html" />
     <Content Include="js\cufon-replace.js" />
     <Content Include="js\cufon-yui.js" />
     <Content Include="js\FF-cash.js" />
@@ -1293,6 +1294,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="HomePage\" />
     <Folder Include="slides\2011\data1\thumbnails\" />
   </ItemGroup>
   <ItemGroup>

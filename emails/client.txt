@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>2015 Woment Retreat Registration</title>
+    <title>2016 Woment Retreat Registration</title>
 </head>
 <body>
     <div style='border: solid 1px #cccccc; width: 588px; padding-left: 10px; margin: 0 auto;
@@ -14,12 +14,12 @@
                 <p>
                     Dear <%client_name%>:</p>
                 <p>
-                    Thank you for registration request to attend the 2015 Haitian Women Retreat sponsored
+                    Thank you for registration request to attend the 2016 Haitian Women Retreat sponsored
                     by Women Seeking the Father Ministry.</p>
                 <p style="font-weight: bold; color: Red">
                     Please Note:<br />
                     ***<b>Your registration is not fully completed.</b> Within the next few days, you will receive a Paypal invoice for a total of <%client_RoomSelection_Payment%> plus a $2.50 processing fee.
-					Once payment is received, you will get a confirmation email completing your registration for the 2015 Haitian women conference.</p>
+					Once payment is received, you will get a confirmation email completing your registration for the 2016 Haitian women conference.</p>
                 <p>
                     <u>You submitted the following information:</u><br />
                     Your Name: <%client_name%>

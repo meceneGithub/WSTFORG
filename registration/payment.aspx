@@ -96,7 +96,7 @@
    <header>
             	<div class="main">
                     <div class="wrapper">
-                        <h1><a href="/index.html">Home</a></h1>
+                        <h1><a href="/homepage/index.html">Home</a></h1>
                         <div class="col-1">
                            <div class="bg-1_">
                                 <span><ul class="soc_list">
@@ -110,7 +110,7 @@
                 <nav>
                 <div class="main">
                     <ul class="menu">
-                        <li><a href="/index.html"><img src="/images/home.jpg" alt="" /></a></li>
+                        <li><a href="/homepage/index.html"><img src="/images/home.jpg" alt="" /></a></li>
                         <li><a class="active_" href="/about/purpose.html">About Us</a>
                           <ul>
                                 <li><a href="/about/purpose.html">Our Purpose</a></li>
@@ -123,10 +123,10 @@
                         </li>
                         <li><a href="/registration/register.aspx?a=registration">Registration</a></li>
                         <li><a href="/about/speakers.aspx">The speakers</a></li>
-                        <li><a href="#">2015 Retreat</a>                        
+                        <li><a href="#">2016 Retreat</a>                        
                           <ul>
                                 <!--<li><a href="/about/retreatinfo.html">Retreat Details</a></li>-->
-                                <li><a href="/about/themeinfo.html">2015 Theme</a></li>
+                                <li><a href="/about/themeinfo.html">2016 Theme</a></li>
                                 <li><a href="/about/speakers.aspx">Speakers Bio</a></li>
                                  <li><!--<a href="/about/directions.html">Directions</a>--></li>
                                  <li><a href="/registration/register.aspx?a=registration">Registration</a></li>
@@ -173,7 +173,7 @@
                         	
                             	 <div style=" clear: both; height:30px">&nbsp;</div>
                                    <div class="col-indent1" style="line-height: 26px">
-                                   <h3>2015 Registration</h3><br /><br />
+                                   <h3>2016 Registration</h3><br /><br />
                                     <div id="registrationOpen" runat="server" style="width: 100%; display: block; font-size: 14px;
                                         color: #666666">
                       
@@ -231,7 +231,7 @@
                 	<div class="wrapper">
                     	<article class="grid_8 indent-top2">
                         	<div class="bg-2_">
-                            	<h3 style=" font-size:16px">Women Seeking the Father &copy; 2015</h3>
+                            	<h3 style=" font-size:16px">Women Seeking the Father &copy; 2016</h3>
                                                                <!--{%FOOTER_LINK} -->
                                   E -mail: <a href="../about/contact.aspx" class="link2 color-2">info@womenseekingthefather.org</a><br/>
                             Phone: (847) 901-3016<br />

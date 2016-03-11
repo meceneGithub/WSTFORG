@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>2015 Women Retreat Registration Request</title>
+    <title>2016 Women Retreat Registration Request</title>
 </head>
 <body>
     <div style='border: solid 1px #cccccc; width: 588px; padding-left: 10px; margin: 0 auto;
@@ -12,7 +12,7 @@
             </div>
             <div>
                 <p>
-                   This request is from <%client_name%> for registration to the 2015 Haitian women Annual Retreat.</p>
+                   This request is from <%client_name%> for registration to the 2016 Haitian women Annual Retreat.</p>
                 <div>
 					Please follow the following steps to complete the registration process:
 					<ol>

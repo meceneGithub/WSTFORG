@@ -43,7 +43,7 @@
     <header>
             	<div class="main">
                     <div class="wrapper">
-                        <h1><a href="/index.html">Home</a></h1>
+                        <h1><a href="/homepage/index.html">Home</a></h1>
                         <div class="col-1">
                            <div class="bg-1_">
                                 <span><ul class="soc_list">
@@ -57,7 +57,7 @@
                 <nav>
                 <div class="main">
                     <ul class="menu">
-                    <li><a href="../index.html">
+                    <li><a href="../homepage/index.html">
                         <img src="../images/home.jpg" alt="" /></a></li>
                     <li><a class="active_" href="/about/purpose.html">About Us</a>
                         <ul>
@@ -70,11 +70,11 @@
                     </li>
                     <li><a href="/registration/register.aspx?a=registration">Registration</a></li>
                     <li><a href="/about/speakers.aspx">The speakers</a></li>
-                    <li><a href="#">2015 Retreat</a>
+                    <li><a href="#">2016 Retreat</a>
                         <ul>
                             <!--<li><a href="/about/retreatinfo.html">Retreat Details</a></li>-->
-                            <li><a href="/about/flyer.html">2015 Retreat Flyer</a></li>
-                            <li><a href="/about/themeinfo.html">2015 Theme</a></li>
+                            <li><a href="/about/flyer.html">2016 Retreat Flyer</a></li>
+                            <li><a href="/about/themeinfo.html">2016 Theme</a></li>
                             <li><a href="/about/speakers.aspx">Speakers & Bio</a></li>
                             <li><a href="/about/retreatinfo.html">Retreat Info</a></li> 
                             <li><a href="/about/directions.html">Directions</a></li>
@@ -105,8 +105,8 @@
                                         </li>                                    
                                     </ul>
                                 </div>
-                                <a class="prev" href="#">prev</a>
-                                <a class="next" href="#">next</a>
+<%--                                <a class="prev" href="#">prev</a>
+                                <a class="next" href="#">next</a>--%>
                             </div>
                         </article>
                 <div class="clear">
@@ -122,20 +122,20 @@
                         	<article class="grid_7 suffix_1">
 
                                 <div style="font-size: 20px; color: #666; font-weight: lighter; ">
-                            	  Registration Open:<br /> <br /> Now - August 1
+                            	  Registration Open:<br /> <br /> Now - July 31
                                 </div>
                             <div style="padding-top: 20px">
                                 <ul class="ul-11">
-                                <li>4 people per room - $165/person</li>
-                                <li>3 people per room - $180/person</li>
-                                <li>2 people per room - $195/person</li>
-                                <li>Single room - $220</li> 
+                                <li>4 people per room - $170/person</li>
+                                <li>3 people per room - $185/person</li>
+                                <li>2 people per room - $200/person</li>
+                                <li>Single room - $260</li> 
                             </ul>
                             <br />
                             <span style="font-size: 14px; color: #666; font-weight: lighter;">
-                                Early Registration: Ends July 31<br />
-                                Regular Registration: Now - August 31<br />
-                                Add $10 after August 1</span>
+                                - Registration Start: Now until May 31 <br />
+                                - Registration Deadline: July 31
+                                </span>
                         </div>
                        <div style="padding-top: 20px">
                             <span style="font-size: 16px; color: #666; font-weight: lighter">What is included:</span>
@@ -209,10 +209,10 @@
                                                 Please select your room preference:
                                             <br />
                                                 <asp:DropDownList ID="DropDownList1" runat="server" Width="350px" Height="24px" BackColor="#FFFF99">
-                                                    <asp:ListItem Value="$165" Text="4 Persons per room" Enabled="true">4 Persons per room - $165/person</asp:ListItem>
-                                                    <asp:ListItem Value="$180" Text="3 Persons per room">3 Persons per room - $180/person</asp:ListItem>
-                                                    <asp:ListItem Value="$195" Text="2 Persons per room">2 Persons per room - $195/person</asp:ListItem>
-                                                    <asp:ListItem Value="$250" Text="Single room">Single Room - $250/person</asp:ListItem>
+                                                    <asp:ListItem Value="$170" Text="4 Persons per room" Enabled="true">4 Persons per room - $170/person</asp:ListItem>
+                                                    <asp:ListItem Value="$185" Text="3 Persons per room">3 Persons per room - $185/person</asp:ListItem>
+                                                    <asp:ListItem Value="$200" Text="2 Persons per room">2 Persons per room - $200/person</asp:ListItem>
+                                                    <asp:ListItem Value="$260" Text="Single room">Single Room - $260/person</asp:ListItem>
                                                 </asp:DropDownList>                                                 
                                             </label>
                                         <asp:ValidationSummary ID="ValidationSummary1" runat="server" ShowMessageBox="True" ShowSummary="False"></asp:ValidationSummary>
@@ -237,7 +237,7 @@
                 	<div class="wrapper">
                     	<article class="grid_8 indent-top2">
                         	<div class="bg-2_">
-                            	<h3 style=" font-size:16px">Women Seeking the Father &copy; 2015</h3>
+                            	<h3 style=" font-size:16px">Women Seeking the Father &copy; 2016</h3>
                                                                <!--{%FOOTER_LINK} -->
                                   E -mail: <a href="../about/contact.aspx" class="link2 color-2">info@womenseekingthefather.org</a><br/>
                             Phone: (847) 901-3016<br />
