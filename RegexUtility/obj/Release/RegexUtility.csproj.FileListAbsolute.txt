@@ -2,3 +2,8 @@ C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\bin\Release\R
 C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\bin\Release\RegexUtility.pdb
 C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\obj\Release\RegexUtility.dll
 C:\Web_Development\Womenseekingthefather\Site\WSTFORG\RegexUtility\obj\Release\RegexUtility.pdb
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\RegexUtility\bin\Release\RegexUtility.dll
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\RegexUtility\bin\Release\RegexUtility.pdb
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\RegexUtility\obj\Release\RegexUtility.csprojResolveAssemblyReference.cache
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\RegexUtility\obj\Release\RegexUtility.dll
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\RegexUtility\obj\Release\RegexUtility.pdb

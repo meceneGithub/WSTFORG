@@ -70,13 +70,14 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="10year\2007pics.html" />
-    <Content Include="10year\2009pics.html" />
-    <Content Include="10year\2010pics.html" />
-    <Content Include="10year\2011pics.html" />
-    <Content Include="10year\2012pics.html" />
-    <Content Include="10year\2013pics.html" />
-    <Content Include="10year\2014pics.html" />
+    <Content Include="pictures\2007pics.html" />
+    <Content Include="pictures\2009pics.html" />
+    <Content Include="pictures\2010pics.html" />
+    <Content Include="pictures\2011pics.html" />
+    <Content Include="pictures\2012pics.html" />
+    <Content Include="pictures\2013pics.html" />
+    <Content Include="pictures\2015pics.html" />
+    <Content Include="pictures\2014pics.html" />
     <Content Include="about\celebration.html" />
     <Content Include="about\flyer.html" />
     <Content Include="css\emailstyle.css" />
@@ -1296,6 +1297,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="HomePage\" />
     <Folder Include="slides\2011\data1\thumbnails\" />
+    <Folder Include="slides\2015\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="RegexUtility\RegexUtility.csproj">

@@ -6,3 +6,11 @@ C:\Web_Development\Womenseekingthefather\Site\WSTFORG\bin\RegexUtility.pdb
 C:\Web_Development\Womenseekingthefather\Site\WSTFORG\obj\Release\WSTFORG.csprojResolveAssemblyReference.cache
 C:\Web_Development\Womenseekingthefather\Site\WSTFORG\obj\Release\WSTFORG.dll
 C:\Web_Development\Womenseekingthefather\Site\WSTFORG\obj\Release\WSTFORG.pdb
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\bin\WSTFORG.dll.config
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\bin\WSTFORG.dll
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\bin\WSTFORG.pdb
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\bin\RegexUtility.dll
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\bin\RegexUtility.pdb
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\obj\Release\WSTFORG.csprojResolveAssemblyReference.cache
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\obj\Release\WSTFORG.dll
+C:\Users\Mecene\Google Drive\Mecene_GDrive\WebSites\Source\2015\WSTFORG\obj\Release\WSTFORG.pdb
