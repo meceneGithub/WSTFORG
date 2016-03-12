@@ -18,7 +18,7 @@
                     by Women Seeking the Father Ministry.</p>
                 <p style="font-weight: bold; color: Red">
                     Please Note:<br />
-                    ***<b>Your registration is not fully completed.</b> Within the next few days, you will receive a Paypal invoice for a total of <%client_RoomSelection_Payment%> plus a $2.50 processing fee.
+                    ***<b>Your registration is not fully completed.</b> Within the next few days, you will receive a Paypal invoice for a total of <%client_RoomSelection_Payment%> plus the processing fee.
 					Once payment is received, you will get a confirmation email completing your registration for the 2016 Haitian women conference.</p>
                 <p>
                     <u>You submitted the following information:</u><br />
